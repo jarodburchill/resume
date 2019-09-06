@@ -69,5 +69,18 @@
         "Styled using Sass variables, nesting, operators and mixins."
       ]
     }
+  ],
+  "education": [
+    {
+      "program": "Computer Programmer/Analyst (Co-op) Program",
+      "location": "Conestoga College, Kitchener, Ontario",
+      "start-date": "September 2017",
+      "end-date": "Present",
+      "description": [
+        "Passionate about learning, currently maintaining a 3.86 GPA (88.7% average)",
+        "Obtained key analytical and problem-solving skills through assignments and projects",
+        "Interpersonal and Group Dynamics elective strengthened collaboration skills"
+      ]
+    }
   ]
 }
