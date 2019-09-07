@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./styles/Skills.module.scss";
 import data from "../resume-data.json";
 
 function Skills() {
@@ -10,7 +9,7 @@ function Skills() {
   const other = skills.other;
 
   return (
-    <div className={styles.container}>
+    <div className="global-padding">
       <h3>Technical Skills</h3>
       <hr />
       <h4>Front-end</h4>

@@ -1,12 +1,11 @@
 import React from "react";
-import styles from "./styles/Info.module.scss";
 import data from "../resume-data.json";
 
 function Info() {
   const info = data.info;
 
   return (
-    <div className={styles.container}>
+    <div className="global-padding">
       <h3>Information</h3>
       <hr />
       <p>{info.address}</p>

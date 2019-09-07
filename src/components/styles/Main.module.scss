@@ -3,3 +3,10 @@
   height: 100vh;
   background: white;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 67vw;
+    height: 100vw * (11 / 8.5);
+  }
+}

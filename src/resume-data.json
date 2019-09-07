@@ -42,7 +42,7 @@
       "title": "Blackjack React App",
       "languages": ["React", "TypeScript"],
       "repo": "https://github.com/jarodburchill/BlackjackReactApp",
-      "start-date": "August 2019",
+      "startDate": "August 2019",
       "description": [
         "Blackjack card game built in React, using TypeScript",
         "All application state is managed with React Hooks",
@@ -53,7 +53,7 @@
       "title": "Project Automation",
       "languages": ["Python"],
       "repo": "https://github.com/jarodburchill/ProjectAutomation",
-      "start-date": "July 2019",
+      "startDate": "July 2019",
       "description": [
         "Python script for creating new projects in the desired local directory, with a GitHub origin",
         "Open sourced project with multiple contributors"
@@ -63,7 +63,7 @@
       "title": "Calculator React App",
       "languages": ["React", "Sass"],
       "repo": "https://github.com/jarodburchill/CalculatorReactApp",
-      "start-date": "June 2019",
+      "startDate": "June 2019",
       "description": [
         "Functional calculator built in React",
         "Styled using Sass variables, nesting, operators and mixins."
@@ -72,10 +72,10 @@
   ],
   "education": [
     {
-      "program": "Computer Programmer/Analyst (Co-op) Program",
+      "title": "Computer Programmer/Analyst (Co-op) Program",
       "location": "Conestoga College, Kitchener, Ontario",
-      "start-date": "September 2017",
-      "end-date": "Present",
+      "startDate": "September 2017",
+      "endDate": "Present",
       "description": [
         "Passionate about learning, currently maintaining a 3.86 GPA (88.7% average)",
         "Obtained key analytical and problem-solving skills through assignments and projects",
@@ -85,10 +85,10 @@
   ],
   "experience": [
     {
-      "job-title": "Programmer/Analyst (Co-op)",
+      "title": "Programmer/Analyst (Co-op)",
       "location": "Waterloo Regional Police Service, Cambridge, Ontario",
-      "start-date": "May 2019",
-      "end-date": "Present",
+      "startDate": "May 2019",
+      "endDate": "Present",
       "description": [
         "Full stack web application development using Microsoft's ASP.NET framework",
         "Create dynamic client-side web pages with JavaScript",
@@ -97,10 +97,10 @@
       ]
     },
     {
-      "job-title": "Geek Squad Agent",
+      "title": "Geek Squad Agent",
       "location": "Best Buy Canada, Kitchener, Ontario",
-      "start-date": "February 2019",
-      "end-date": "April 2019",
+      "startDate": "February 2019",
+      "endDate": "April 2019",
       "description": [
         "Engaged with clients to find the best solution for their technology needs",
         "Educated clients on new aspects of technology that may be difficult to understand",
@@ -108,10 +108,10 @@
       ]
     },
     {
-      "job-title": "Operations Representative",
+      "title": "Operations Representative",
       "location": "Best Buy Canada, Kitchener, Ontario",
-      "start-date": "October 2019",
-      "end-date": "April 2019",
+      "startDate": "October 2019",
+      "endDate": "April 2019",
       "description": [
         "Provided friendly customer service in a fast-paced environment",
         "Set aside time to gain knowledge about the newest technologies",
