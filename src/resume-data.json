@@ -33,7 +33,7 @@
       "C#.NET",
       "Java"
     ],
-    "database": ["T-SQL", "MySQL", "SQLite", "MongoBD"],
+    "database": ["T-SQL", "MySQL", "SQLite", "MongoDB"],
     "other": ["Git", "GitHub", "Visual Studio"]
   },
   "qualifications": ["TODO"],

@@ -21,6 +21,7 @@ code {
 
 hr {
   margin: 0.25vh 0;
+  border-top: 1px solid black;
 }
 
 h1 {
