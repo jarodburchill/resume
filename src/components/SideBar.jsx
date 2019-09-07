@@ -1,6 +1,6 @@
 import React from "react";
 import Profile from "./Profile";
-import Contact from "./Contact";
+import Info from "./Info";
 import Social from "./Social";
 import styles from "./styles/SideBar.module.scss";
 
@@ -8,7 +8,7 @@ function SideBar() {
   return (
     <div className={styles.container}>
       <Profile />
-      <Contact />
+      <Info />
       <Social />
     </div>
   );
