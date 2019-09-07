@@ -20,8 +20,10 @@ code {
 }
 
 hr {
-  margin: 0.25vh 0;
-  border-top: 1px solid black;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  height: 1px;
 }
 
 h1 {
@@ -51,7 +53,6 @@ p {
 @media screen and (max-width: 600px) {
   hr {
     margin: (0.25vw * (11 / 8.5)) 0;
-    border-top: 1px solid black;
   }
 
   h1 {
