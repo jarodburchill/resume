@@ -5,10 +5,12 @@ import styles from "./styles/App.module.scss";
 
 function App() {
   return (
-    <div className={styles.page}>
-      <div>
-        <SideBar />
-        <Main />
+    <div className={styles.container}>
+      <div className={styles.page}>
+        <div>
+          <SideBar />
+          <Main />
+        </div>
       </div>
     </div>
   );

@@ -1,5 +1,11 @@
-.page {
-  width: 100vw;
-  height: 101vw * (11 / 8.5);
+.container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page {
+  width: 100vh / (11 / 8.5);
+  height: 100vh;
+  display: flex;
+  background: white;
 }

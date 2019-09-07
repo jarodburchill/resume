@@ -11,6 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: black;
 }
 
 code {
@@ -19,13 +20,13 @@ code {
 }
 
 h1 {
-  font-size: 4vw;
+  font-size: 4vh;
 }
 
 h2 {
-  font-size: 3vw;
+  font-size: 3vh;
 }
 
 h3 {
-  font-size: 2vw;
+  font-size: 2vh;
 }
