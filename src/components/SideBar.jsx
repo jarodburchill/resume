@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "./Profile";
 import Info from "./Info";
 import Social from "./Social";
+import Skills from "./Skills";
 import styles from "./styles/SideBar.module.scss";
 
 function SideBar() {
@@ -10,6 +11,7 @@ function SideBar() {
       <Profile />
       <Info />
       <Social />
+      <Skills />
     </div>
   );
 }

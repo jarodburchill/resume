@@ -13,7 +13,7 @@
     "linkedin": "linkedin.com/in/jarodburchill"
   },
   "skills": {
-    "front-end": [
+    "frontend": [
       "HTML",
       "CSS",
       "Sass",
@@ -23,7 +23,7 @@
       "React",
       "jQuery"
     ],
-    "back-end": [
+    "backend": [
       "Python",
       "Node.js",
       "Express.js",
