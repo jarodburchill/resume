@@ -1,11 +1,13 @@
 import React from "react";
+import Projects from "./Projects";
+import Education from "./Education";
 import styles from "../styles/Main.module.scss";
 
 function Main() {
   return (
     <div className={styles.container}>
-      <p></p>
-      <p></p>
+      <Projects />
+      <Education />
     </div>
   );
 }

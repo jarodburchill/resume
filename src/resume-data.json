@@ -46,7 +46,7 @@
       "description": [
         "Blackjack card game built in React, using TypeScript",
         "All application state is managed with React Hooks",
-        "Featured in the August 29th, 2019 issue of the React.js Newsletter by Tyler McGinnis: http://reactjsnewsletter.com/issues/175#projects"
+        "Featured in the August 29th, 2019 issue of the React.js Newsletter by Tyler McGinnis"
       ]
     },
     {
@@ -72,7 +72,7 @@
   ],
   "education": [
     {
-      "title": "Computer Programmer/Analyst (Co-op) Program",
+      "title": "Computer Programmer/Analyst",
       "location": "Conestoga College, Kitchener, Ontario",
       "startDate": "September 2017",
       "endDate": "Present",
