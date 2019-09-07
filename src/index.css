@@ -19,6 +19,10 @@ code {
     monospace;
 }
 
+hr {
+  margin: 0.25vh 0;
+}
+
 h1 {
   font-size: 3.5vh;
 }
