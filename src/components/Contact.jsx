@@ -10,6 +10,7 @@ function Contact() {
       <h3 className={styles.vw}>{contact.address}</h3>
       <h3>{contact.phone}</h3>
       <h3>{contact.email}</h3>
+      <p>testestetstst</p>
     </div>
   );
 }
