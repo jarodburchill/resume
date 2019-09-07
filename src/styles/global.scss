@@ -54,7 +54,7 @@ li {
 }
 
 .global-padding {
-  padding: 1vh 2vh;
+  padding: 1vh 2vh 0 2vh;
 }
 
 .global-header {
@@ -103,7 +103,7 @@ li {
   }
 
   .global-padding {
-    padding: (1vw * (11 / 8.5)) (2vw * (11 / 8.5));
+    padding: (1vw * (11 / 8.5)) (2vw * (11 / 8.5)) 0 (2vw * (11 / 8.5));
   }
 
   .global-header {
