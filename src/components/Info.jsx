@@ -7,7 +7,7 @@ function Info() {
 
   return (
     <div className={styles.container}>
-      <h2>Information</h2>
+      <h3>Information</h3>
       <hr />
       <p>{info.address}</p>
       <p>{info.phone}</p>

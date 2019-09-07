@@ -7,10 +7,8 @@ function App() {
   return (
     <div className={styles.container}>
       <div className={styles.page}>
-        <div>
-          <SideBar />
-          <Main />
-        </div>
+        <SideBar />
+        <Main />
       </div>
     </div>
   );

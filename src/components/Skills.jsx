@@ -11,21 +11,21 @@ function Skills() {
 
   return (
     <div className={styles.container}>
-      <h2>Skills</h2>
+      <h3>Technical Skills</h3>
       <hr />
-      <h3 className={styles.groupName}>Front-end</h3>
+      <h4>Front-end</h4>
       {frontend.map((skill, index) => {
         return <p key={index}>{skill}</p>;
       })}
-      <h3 className={styles.groupName}>Back-end</h3>
+      <h4>Back-end</h4>
       {backend.map((skill, index) => {
         return <p key={index}>{skill}</p>;
       })}
-      <h3 className={styles.groupName}>Database</h3>
+      <h4>Database</h4>
       {database.map((skill, index) => {
         return <p key={index}>{skill}</p>;
       })}
-      <h3 className={styles.groupName}>Other</h3>
+      <h4>Other</h4>
       {other.map((skill, index) => {
         return <p key={index}>{skill}</p>;
       })}

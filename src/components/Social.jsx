@@ -7,7 +7,7 @@ function Social() {
 
   return (
     <div className={styles.container}>
-      <h2>Social</h2>
+      <h3>Social</h3>
       <hr />
       <p>{social.github}</p>
       <p>{social.linkedin}</p>
