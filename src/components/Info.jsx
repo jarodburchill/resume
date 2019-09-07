@@ -7,7 +7,7 @@ function Info() {
 
   return (
     <div className={styles.container}>
-      <h2>Info</h2>
+      <h2>Information</h2>
       <hr />
       <h3 className={styles.vw}>{info.address}</h3>
       <h3>{info.phone}</h3>
