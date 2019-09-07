@@ -9,9 +9,9 @@ function Info() {
     <div className={styles.container}>
       <h2>Information</h2>
       <hr />
-      <h3 className={styles.vw}>{info.address}</h3>
-      <h3>{info.phone}</h3>
-      <h3>{info.email}</h3>
+      <p>{info.address}</p>
+      <p>{info.phone}</p>
+      <p>{info.email}</p>
     </div>
   );
 }

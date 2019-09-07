@@ -9,8 +9,9 @@ function Skills() {
     <div className={styles.container}>
       <h2>Skills</h2>
       <hr />
+      <h3>Front-end</h3>
       {frontend.map((skill, index) => {
-        return <h3 key={index}>{skill}</h3>;
+        return <p key={index}>{skill}</p>;
       })}
     </div>
   );

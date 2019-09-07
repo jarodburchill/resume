@@ -9,8 +9,8 @@ function Social() {
     <div className={styles.container}>
       <h2>Social</h2>
       <hr />
-      <h3>{social.github}</h3>
-      <h3>{social.linkedin}</h3>
+      <p>{social.github}</p>
+      <p>{social.linkedin}</p>
     </div>
   );
 }
