@@ -36,7 +36,7 @@
     "database": ["T-SQL", "MySQL", "SQLite", "MongoDB"],
     "other": ["Git", "GitHub", "Visual Studio"]
   },
-  "qualifications": ["TODO"],
+  "qualifications": ["TODO", "TOTDO", "ADADFD", "TODO"],
   "projects": [
     {
       "title": "Blackjack React App",
@@ -103,7 +103,7 @@
       "endDate": "April 2019",
       "description": [
         "Engaged with clients to find the best solution for their technology needs",
-        "Educated clients on new aspects of technology that may be difficult to understand",
+        "Educated clients on new aspects of technology that are difficult to understand",
         "Performed setup, maintenance, and repairs on client’s hardware"
       ]
     },
@@ -115,7 +115,7 @@
       "description": [
         "Provided friendly customer service in a fast-paced environment",
         "Set aside time to gain knowledge about the newest technologies",
-        "Reviewed service and warranty packages with customers, ensuring a satisfying experience"
+        "Reviewed service packages with customers, ensuring a satisfying experience"
       ]
     }
   ]

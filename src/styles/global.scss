@@ -49,6 +49,10 @@ p {
   font-size: 1.5vh;
 }
 
+ul {
+  padding: 0.5vh 0 0 0;
+}
+
 li {
   font-size: 1.25vh;
 }
@@ -61,12 +65,11 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0.5vh 0;
+  margin: 0.5vh 0 0 0;
 }
 
 .global-location {
   font-style: italic;
-  padding: 0 0 0.5vh 0;
 }
 
 .global-description {
@@ -98,6 +101,10 @@ li {
     font-size: 1.5vw * (11 / 8.5);
   }
 
+  ul {
+    padding: 0.5vw * (11 / 8.5) 0 0 0;
+  }
+
   li {
     font-size: 1.25vw * (11 / 8.5);
   }
@@ -107,11 +114,7 @@ li {
   }
 
   .global-header {
-    margin: (0.5vw * (11 / 8.5)) 0;
-  }
-
-  .global-location {
-    padding: 0 0 0.5vw 0;
+    margin: (0.5vw * (11 / 8.5)) 0 0 0;
   }
 
   .global-description {

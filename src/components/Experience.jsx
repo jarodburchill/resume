@@ -7,7 +7,7 @@ function Experience() {
 
   return (
     <div className="global-padding">
-      <h3>Experience</h3>
+      <h3>Work Experience</h3>
       <hr />
       {experience.map((position, index) => {
         return <Position key={index} position={position} />;
