@@ -66,6 +66,10 @@ li {
   align-items: center;
   justify-content: space-between;
   margin: 0.5vh 0 0 0;
+  div {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .global-location {
@@ -74,6 +78,25 @@ li {
 
 .global-description {
   padding: 0 2vh;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 1vh;
+  img {
+    width: 1.75vh;
+    margin: 0 0 0 0.5vh;
+  }
+}
+
+.fork {
+  display: flex;
+  margin: 0 0 0 1vh;
+  img {
+    width: 1.25vh;
+    margin: 0 0 0 0.5vh;
+  }
 }
 
 @media screen and (max-width: 600px) {
