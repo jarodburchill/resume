@@ -1,15 +1,15 @@
 import React from "react";
 import Project from "./Project";
-import data from "../resume-data.json";
+import json from "../resume-data.json";
 
 function Projects() {
-  const projects = data.projects;
+  const projects = json.projects;
 
   return (
     <div className="padding">
-      <h3>Projects</h3>
+      <h3>{projects.title}</h3>
       <hr />
-      {projects.map((project, index) => {
+      {projects.data.map((project, index) => {
         return <Project key={index} project={project} />;
       })}
     </div>

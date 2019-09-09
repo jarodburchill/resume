@@ -1,137 +1,160 @@
 {
   "profile": {
-    "name": "Jarod Burchill",
-    "profession": "Developer"
+    "data": {
+      "name": "Jarod Burchill",
+      "profession": "Developer"
+    }
   },
   "info": {
-    "address": "Kitchener, Ontario, Canada",
-    "phone": "(519) 282-8028",
-    "email": "jarodburchill@gmail.com"
+    "title": "Information",
+    "data": {
+      "address": "Kitchener, Ontario, Canada",
+      "phone": "(519) 282-8028",
+      "email": "jarodburchill@gmail.com"
+    }
   },
   "social": {
-    "github": "github.com/jarodburchill",
-    "linkedin": "linkedin.com/in/jarodburchill"
+    "title": "Social",
+    "data": {
+      "github": "github.com/jarodburchill",
+      "linkedin": "linkedin.com/in/jarodburchill"
+    }
   },
-  "skills": [
-    {
-      "title": "Front-end",
-      "items": [
-        "HTML",
-        "CSS",
-        "Sass",
-        "Bootstrap",
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "jQuery"
-      ]
-    },
-    {
-      "title": "Back-end",
-      "items": [
-        "Python",
-        "Node.js",
-        "Express.js",
-        "PHP",
-        "Laravel",
-        "ASP.NET",
-        "C#.NET",
-        "Java"
-      ]
-    },
-    {
-      "title": "Database",
-      "items": ["T-SQL", "MySQL", "SQLite", "MongoDB"]
-    },
-    {
-      "title": "Other",
-      "items": ["Git", "GitHub", "Visual Studio"]
-    }
-  ],
-  "summary": ["TODO", "TODO", "TODO", "TODO"],
-  "projects": [
-    {
-      "title": "Blackjack React App",
-      "languages": ["React", "TypeScript"],
-      "repo": "https://github.com/jarodburchill/BlackjackReactApp",
-      "api": "https://api.github.com/repos/jarodburchill/blackjackreactapp",
-      "startDate": "August 2019",
-      "description": [
-        "Blackjack card game built in React, using TypeScript",
-        "All application state is managed with React Hooks",
-        "Featured in the August 29th, 2019 issue of the React.js Newsletter by Tyler McGinnis"
-      ]
-    },
-    {
-      "title": "Project Automation",
-      "languages": ["Python"],
-      "repo": "https://github.com/jarodburchill/ProjectAutomation",
-      "api": "https://api.github.com/repos/jarodburchill/ProjectAutomation",
-      "startDate": "July 2019",
-      "description": [
-        "Python script for creating new projects in the desired local directory, with a GitHub origin",
-        "Open sourced project with multiple contributors"
-      ]
-    },
-    {
-      "title": "Calculator React App",
-      "languages": ["React", "Sass"],
-      "repo": "https://github.com/jarodburchill/CalculatorReactApp",
-      "api": "https://api.github.com/repos/jarodburchill/CalculatorReactApp",
-      "startDate": "June 2019",
-      "description": [
-        "Functional calculator built in React",
-        "Styled using Sass variables, nesting, operators and mixins."
-      ]
-    }
-  ],
-  "education": [
-    {
-      "title": "Computer Programmer/Analyst",
-      "location": "Conestoga College, Kitchener, Ontario",
-      "startDate": "September 2017",
-      "endDate": "Present",
-      "description": [
-        "Passionate about learning, currently maintaining a 3.86 GPA (88.7% average)",
-        "Obtained key analytical and problem-solving skills through assignments and projects",
-        "Interpersonal and Group Dynamics elective strengthened collaboration skills"
-      ]
-    }
-  ],
-  "experience": [
-    {
-      "title": "Programmer/Analyst (Co-op)",
-      "location": "Waterloo Regional Police Service, Cambridge, Ontario",
-      "startDate": "May 2019",
-      "endDate": "Present",
-      "description": [
-        "Full stack web application development using Microsoft's ASP.NET framework",
-        "Create dynamic client-side web pages with JavaScript",
-        "Database management in Microsoft SQL Server",
-        "Project source control with Visual Studio Team Foundation Server"
-      ]
-    },
-    {
-      "title": "Geek Squad Agent",
-      "location": "Best Buy Canada, Kitchener, Ontario",
-      "startDate": "February 2019",
-      "endDate": "April 2019",
-      "description": [
-        "Engaged with clients to find the best solution for their technology needs",
-        "Educated clients on new aspects of technology that are difficult to understand",
-        "Performed setup, maintenance, and repairs on client’s hardware"
-      ]
-    },
-    {
-      "title": "Operations Representative",
-      "location": "Best Buy Canada, Kitchener, Ontario",
-      "startDate": "October 2018",
-      "endDate": "April 2019",
-      "description": [
-        "Provided friendly customer service in a fast-paced environment",
-        "Set aside time to gain knowledge about the newest technologies",
-        "Reviewed service packages with customers, ensuring a satisfying experience"
-      ]
-    }
-  ]
+  "skills": {
+    "title": "Technical Skills",
+    "data": [
+      {
+        "title": "Front-end",
+        "items": [
+          "HTML",
+          "CSS",
+          "Sass",
+          "Bootstrap",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "jQuery"
+        ]
+      },
+      {
+        "title": "Back-end",
+        "items": [
+          "Python",
+          "Node.js",
+          "Express.js",
+          "PHP",
+          "Laravel",
+          "ASP.NET",
+          "C#.NET",
+          "Java"
+        ]
+      },
+      {
+        "title": "Database",
+        "items": ["T-SQL", "MySQL", "SQLite", "MongoDB"]
+      },
+      {
+        "title": "Other",
+        "items": ["Git", "GitHub", "Visual Studio"]
+      }
+    ]
+  },
+  "summary": {
+    "title": "Summary",
+    "data": ["TODO", "TODO", "TODO", "TODO"]
+  },
+  "projects": {
+    "title": "Projects",
+    "data": [
+      {
+        "title": "Blackjack React App",
+        "languages": ["React", "TypeScript"],
+        "repo": "https://github.com/jarodburchill/BlackjackReactApp",
+        "api": "https://api.github.com/repos/jarodburchill/blackjackreactapp",
+        "startDate": "August 2019",
+        "description": [
+          "Blackjack card game built in React, using TypeScript",
+          "All application state is managed with React Hooks",
+          "Featured in the August 29th, 2019 issue of the React.js Newsletter by Tyler McGinnis"
+        ]
+      },
+      {
+        "title": "Project Automation",
+        "languages": ["Python"],
+        "repo": "https://github.com/jarodburchill/ProjectAutomation",
+        "api": "https://api.github.com/repos/jarodburchill/ProjectAutomation",
+        "startDate": "July 2019",
+        "description": [
+          "Python script for creating new projects in the desired local directory, with a GitHub origin",
+          "Open sourced project with multiple contributors"
+        ]
+      },
+      {
+        "title": "Calculator React App",
+        "languages": ["React", "Sass"],
+        "repo": "https://github.com/jarodburchill/CalculatorReactApp",
+        "api": "https://api.github.com/repos/jarodburchill/CalculatorReactApp",
+        "startDate": "June 2019",
+        "description": [
+          "Functional calculator built in React",
+          "Styled using Sass variables, nesting, operators and mixins."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "data": [
+      {
+        "title": "Computer Programmer/Analyst",
+        "location": "Conestoga College, Kitchener, Ontario",
+        "startDate": "September 2017",
+        "endDate": "Present",
+        "description": [
+          "Passionate about learning, currently maintaining a 3.86 GPA (88.7% average)",
+          "Obtained key analytical and problem-solving skills through assignments and projects",
+          "Interpersonal and Group Dynamics elective strengthened collaboration skills"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Work Experience",
+    "data": [
+      {
+        "title": "Programmer/Analyst (Co-op)",
+        "location": "Waterloo Regional Police Service, Cambridge, Ontario",
+        "startDate": "May 2019",
+        "endDate": "Present",
+        "description": [
+          "Full stack web application development using Microsoft's ASP.NET framework",
+          "Create dynamic client-side web pages with JavaScript",
+          "Database management in Microsoft SQL Server",
+          "Project source control with Visual Studio Team Foundation Server"
+        ]
+      },
+      {
+        "title": "Geek Squad Agent",
+        "location": "Best Buy Canada, Kitchener, Ontario",
+        "startDate": "February 2019",
+        "endDate": "April 2019",
+        "description": [
+          "Engaged with clients to find the best solution for their technology needs",
+          "Educated clients on new aspects of technology that are difficult to understand",
+          "Performed setup, maintenance, and repairs on client’s hardware"
+        ]
+      },
+      {
+        "title": "Operations Representative",
+        "location": "Best Buy Canada, Kitchener, Ontario",
+        "startDate": "October 2018",
+        "endDate": "April 2019",
+        "description": [
+          "Provided friendly customer service in a fast-paced environment",
+          "Set aside time to gain knowledge about the newest technologies",
+          "Reviewed service packages with customers, ensuring a satisfying experience"
+        ]
+      }
+    ]
+  }
 }

@@ -1,15 +1,15 @@
 import React from "react";
 import Position from "./Position";
-import data from "../resume-data.json";
+import json from "../resume-data.json";
 
 function Education() {
-  const education = data.education;
+  const education = json.education;
 
   return (
     <div className="padding">
-      <h3>Education</h3>
+      <h3>{education.title}</h3>
       <hr />
-      {education.map((position, index) => {
+      {education.data.map((position, index) => {
         return <Position key={index} position={position} />;
       })}
     </div>

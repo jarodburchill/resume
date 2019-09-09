@@ -1,15 +1,15 @@
 import React from "react";
 import Skillset from "./Skillset";
-import data from "../resume-data.json";
+import json from "../resume-data.json";
 
 function Skills() {
-  const skills = data.skills;
+  const skills = json.skills;
 
   return (
     <div className="padding">
-      <h3>Technical Skills</h3>
+      <h3>{skills.title}</h3>
       <hr />
-      {skills.map((skillset, index) => {
+      {skills.data.map((skillset, index) => {
         return <Skillset key={index} skillset={skillset} />;
       })}
     </div>

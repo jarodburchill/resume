@@ -1,13 +1,13 @@
 import React from "react";
-import data from "../resume-data.json";
+import json from "../resume-data.json";
 
 function Profile() {
-  const profile = data.profile;
+  const profile = json.profile;
 
   return (
     <div className="padding">
-      <h1>{profile.name}</h1>
-      <h2>{profile.profession}</h2>
+      <h1>{profile.data.name}</h1>
+      <h2>{profile.data.profession}</h2>
     </div>
   );
 }

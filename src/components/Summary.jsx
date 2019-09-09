@@ -1,16 +1,16 @@
 import React from "react";
-import data from "../resume-data.json";
+import json from "../resume-data.json";
 
 function Summary() {
-  const summary = data.summary;
+  const summary = json.summary;
 
   return (
     <div className="padding">
-      <h3>Summary</h3>
+      <h3>{summary.title}</h3>
       <hr />
       <div className="description">
         <ul>
-          {summary.map((item, index) => {
+          {summary.data.map((item, index) => {
             return <li key={index}>{item}</li>;
           })}
         </ul>
