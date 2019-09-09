@@ -12,8 +12,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  //change to 1024px
   .page {
     width: 100vw;
-    // height: 100vw * (11 / 8.5);
+    height: max-content;
   }
 }
