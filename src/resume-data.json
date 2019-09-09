@@ -78,7 +78,7 @@
     "title": "Summary",
     "data": [
       "Front-end application development using the React JavaScript library with react-router for declarative routing and React Hooks for state management",
-      "Creates RESTful APIs with the Express.js framework for Node.js to modify NoSQL databases", 
+      "Create RESTful APIs with the Express.js framework for Node.js to modify NoSQL databases", 
       "Advanced web page styling using styled-components, Sass and CSS Modules"
     ]
   },
@@ -127,7 +127,7 @@
         "startDate": "September 2017",
         "endDate": "Present",
         "description": [
-          "Passionate about learning, currently maintaining a 3.86 GPA (88.7% average)",
+          "Passionate about learning, currently maintaining a 3.88 GPA (89.5% average)",
           "Obtained key analytical and problem-solving skills through assignments and projects",
           "Interpersonal and Group Dynamics elective strengthened collaboration skills"
         ]
