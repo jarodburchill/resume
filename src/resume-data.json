@@ -36,7 +36,7 @@
     "database": ["T-SQL", "MySQL", "SQLite", "MongoDB"],
     "other": ["Git", "GitHub", "Visual Studio"]
   },
-  "qualifications": ["TODO", "TOTDO", "ADADFD", "TODO"],
+  "qualifications": ["TODO", "TODO", "TODO", "TODO"],
   "projects": [
     {
       "title": "Blackjack React App",
