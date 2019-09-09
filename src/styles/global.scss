@@ -13,7 +13,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: black;
 }
 
 code {
@@ -65,12 +64,14 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: rgb(70, 70, 70);
 }
 
 .page-container {
   width: 100vh / $ratio;
   height: 100vh;
   display: flex;
+  box-shadow: 0px 1px 15px rgb(0, 0, 0);
 }
 
 .main-container {
