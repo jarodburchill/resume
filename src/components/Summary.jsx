@@ -1,7 +1,7 @@
 import React from "react";
 import data from "../resume-data.json";
 
-function Qualifications() {
+function Summary() {
   const summary = data.summary;
 
   return (
@@ -19,4 +19,4 @@ function Qualifications() {
   );
 }
 
-export default Qualifications;
+export default Summary;
