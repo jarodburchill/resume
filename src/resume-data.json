@@ -48,7 +48,7 @@
       "items": ["Git", "GitHub", "Visual Studio"]
     }
   ],
-  "qualifications": ["TODO", "TODO", "TODO", "TODO"],
+  "summary": ["TODO", "TODO", "TODO", "TODO"],
   "projects": [
     {
       "title": "Blackjack React App",

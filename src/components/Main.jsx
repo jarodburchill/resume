@@ -1,5 +1,5 @@
 import React from "react";
-import Qualifications from "./Qualifications";
+import Summary from "./Summary";
 import Projects from "./Projects";
 import Education from "./Education";
 import Experience from "./Experience";
@@ -7,7 +7,7 @@ import Experience from "./Experience";
 function Main() {
   return (
     <div className="main-container">
-      <Qualifications />
+      <Summary />
       <Projects />
       <Education />
       <Experience />
