@@ -1,3 +1,5 @@
+$ratio: (11 / 8.5);
+
 * {
   margin: 0;
   padding: 0;
@@ -57,6 +59,32 @@ li {
   font-size: 1.25vh;
 }
 
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-container {
+  width: 100vh / $ratio;
+  height: 100vh;
+  display: flex;
+}
+
+.main-container {
+  width: ((100vh / $ratio) * 2) / 3;
+  height: 100vh;
+  background: white;
+}
+
+.sidebar-container {
+  width: (100vh / $ratio) / 3;
+  height: 100vh;
+  background: rgb(175, 175, 175);
+}
+
 .global-padding {
   padding: 1vh 2vh 0 2vh;
 }
@@ -101,63 +129,93 @@ li {
 
 @media screen and (max-width: 600px) {
   hr {
-    margin: (0.25vw * (11 / 8.5)) 0;
+    margin: 0.25vw * $ratio 0;
   }
 
   h1 {
-    font-size: 3.25vw * (11 / 8.5);
+    font-size: 3.25vw * $ratio;
   }
 
   h2 {
-    font-size: 2.75vw * (11 / 8.5);
+    font-size: 2.75vw * $ratio;
   }
 
   h3 {
-    font-size: 2.5vw * (11 / 8.5);
+    font-size: 2.5vw * $ratio;
   }
 
   h4 {
-    font-size: 1.75vw * (11 / 8.5);
+    font-size: 1.75vw * $ratio;
   }
 
   p {
-    font-size: 1.5vw * (11 / 8.5);
+    font-size: 1.5vw * $ratio;
   }
 
   ul {
-    padding: 0.5vw * (11 / 8.5) 0 0 0;
+    padding: 0.5vw * $ratio 0 0 0;
   }
 
   li {
-    font-size: 1.25vw * (11 / 8.5);
+    font-size: 1.25vw * $ratio;
+  }
+
+  .page-container {
+    width: 100vw;
+    height: max-content;
+  }
+
+  .main-container {
+    width: 67vw;
+    height: auto;
+    padding-bottom: 2vw;
+  }
+
+  .sidebar-container {
+    width: 33vw;
+    height: auto;
+    padding-bottom: 2vw;
   }
 
   .global-padding {
-    padding: (1vw * (11 / 8.5)) (2vw * (11 / 8.5)) 0 (2vw * (11 / 8.5));
+    padding: 1vw * $ratio 2vw * $ratio 0 2vw * $ratio;
   }
 
   .global-header {
-    margin: (0.5vw * (11 / 8.5)) 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5vw * $ratio 0 0 0;
+    div {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .global-location {
+    font-style: italic;
   }
 
   .global-description {
-    padding: 0 (2vw * (11 / 8.5));
+    padding: 0 2vw * $ratio;
   }
 
   .star {
-    margin: 0 0 0 1vh;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 1vw * $ratio;
     img {
-      width: 1.75vw * (11 / 8.5);
-      margin: 0 0 0 (0.5vw * (11 / 8.5));
+      width: 1.75vw * $ratio;
+      margin: 0 0 0 0.5vw * $ratio;
     }
   }
 
   .fork {
     display: flex;
-    margin: 0 0 0 1vw;
+    margin: 0 0 0 1vw * $ratio;
     img {
-      width: 1.25vw * (11 / 8.5);
-      margin: 0 0 0 (0.5vw * (11 / 8.5));
+      width: 1.25vw * $ratio;
+      margin: 0 0 0 0.5vw * $ratio;
     }
   }
 }
