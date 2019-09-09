@@ -58,6 +58,29 @@ li {
   font-size: 1.25vh;
 }
 
+a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  &:before {
+    background-color: black;
+    content: "";
+    height: 1px;
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+    width: 100%;
+  }
+  &:hover {
+    color: #0000ee;
+    &:before {
+      width: 0;
+    }
+  }
+}
+
 .app-container {
   width: 100vw;
   height: 100vh;
@@ -229,12 +252,25 @@ li {
   }
 }
 
-@page {
-  margin: 0;
-}
-
 @media print {
+  @page {
+    margin: 0;
+  }
   .page-container {
     box-shadow: none;
+  }
+  a {
+    &:before {
+      background-color: unset;
+      content: unset;
+      height: unset;
+      position: unset;
+      bottom: unset;
+      left: unset;
+      transform: unset;
+      transition: unset;
+      width: unset;
+    }
+    color: black;
   }
 }
