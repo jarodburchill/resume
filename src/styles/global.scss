@@ -120,6 +120,7 @@ li {
 
 .fork {
   display: flex;
+  align-items: center;
   margin: 0 0 0 1vh;
   img {
     width: 1.25vh;
@@ -182,18 +183,7 @@ li {
   }
 
   .global-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin: 0.5vw * $ratio 0 0 0;
-    div {
-      display: flex;
-      align-items: center;
-    }
-  }
-
-  .global-location {
-    font-style: italic;
   }
 
   .global-description {
@@ -201,8 +191,6 @@ li {
   }
 
   .star {
-    display: flex;
-    align-items: center;
     margin: 0 0 0 1vw * $ratio;
     img {
       width: 1.75vw * $ratio;
@@ -211,7 +199,6 @@ li {
   }
 
   .fork {
-    display: flex;
     margin: 0 0 0 1vw * $ratio;
     img {
       width: 1.25vw * $ratio;
