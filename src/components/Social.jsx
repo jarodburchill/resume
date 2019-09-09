@@ -12,11 +12,15 @@ function Social() {
       <hr />
       <span className="contact">
         <img src={github} alt="GitHub" />
-        <p>{social.data.github}</p>
+        <p>
+          <a href={social.data.github.href}>{social.data.github.text}</a>
+        </p>
       </span>
       <span className="contact">
         <img src={linkedin} alt="LinkedIn" id="linkedin" />
-        <p>{social.data.linkedin}</p>
+        <p>
+          <a href={social.data.linkedin.href}>{social.data.linkedin.text}</a>
+        </p>
       </span>
     </div>
   );

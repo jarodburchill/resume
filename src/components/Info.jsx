@@ -13,15 +13,21 @@ function Info() {
       <hr />
       <span className="contact">
         <img src={address} alt="Address" />
-        <p>{info.data.address}</p>
+        <p>
+          <a href={info.data.address.href}>{info.data.address.text}</a>
+        </p>
       </span>
       <span className="contact">
         <img src={phone} alt="Phone" />
-        <p>{info.data.phone}</p>
+        <p>
+          <a href={info.data.phone.href}>{info.data.phone.text}</a>
+        </p>
       </span>
       <span className="contact">
         <img src={email} alt="Email" />
-        <p>{info.data.email}</p>
+        <p>
+          <a href={info.data.email.href}>{info.data.email.text}</a>
+        </p>
       </span>
     </div>
   );

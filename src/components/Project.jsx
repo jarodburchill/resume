@@ -21,7 +21,9 @@ function Project({ project }) {
     <div className="group">
       <div className="header">
         <div>
-          <h4>{project.title}</h4>
+          <h4>
+            <a href={project.href}>{project.title}</a>
+          </h4>
           <span className="repo">
             <p>{starCount}</p>
             <img src={star} alt="GitHub Stars" id="star" />

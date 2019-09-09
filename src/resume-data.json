@@ -8,16 +8,31 @@
   "info": {
     "title": "Information",
     "data": {
-      "address": "Kitchener, Ontario, Canada",
-      "phone": "(519) 282-8028",
-      "email": "jarodburchill@gmail.com"
+      "address": {
+        "text": "Kitchener, Ontario, Canada",
+        "href": "https://www.google.com/maps/place/Kitchener,+ON"
+      },
+      "phone": {
+        "text": "(519) 282-8028",
+        "href": "tel:+15192828028"
+      },
+      "email": {
+        "text": "jarodburchill@gmail.com",
+        "href": "mailto:jarodburchill@gmail.com"
+      }
     }
   },
   "social": {
     "title": "Social",
     "data": {
-      "github": "github.com/jarodburchill",
-      "linkedin": "linkedin.com/in/jarodburchill"
+      "github": {
+        "text": "github.com/jarodburchill",
+        "href": "https://github.com/jarodburchill"
+      },
+      "linkedin": {
+        "text": "linkedin.com/in/jarodburchill",
+        "href": "https://www.linkedin.com/in/jarodburchill"
+      }
     }
   },
   "skills": {
