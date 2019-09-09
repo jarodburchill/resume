@@ -12,30 +12,42 @@
     "github": "github.com/jarodburchill",
     "linkedin": "linkedin.com/in/jarodburchill"
   },
-  "skills": {
-    "frontend": [
-      "HTML",
-      "CSS",
-      "Sass",
-      "Bootstrap",
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "jQuery"
-    ],
-    "backend": [
-      "Python",
-      "Node.js",
-      "Express.js",
-      "PHP",
-      "Laravel",
-      "ASP.NET",
-      "C#.NET",
-      "Java"
-    ],
-    "database": ["T-SQL", "MySQL", "SQLite", "MongoDB"],
-    "other": ["Git", "GitHub", "Visual Studio"]
-  },
+  "skills": [
+    {
+      "title": "Front-end",
+      "items": [
+        "HTML",
+        "CSS",
+        "Sass",
+        "Bootstrap",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "jQuery"
+      ]
+    },
+    {
+      "title": "Back-end",
+      "items": [
+        "Python",
+        "Node.js",
+        "Express.js",
+        "PHP",
+        "Laravel",
+        "ASP.NET",
+        "C#.NET",
+        "Java"
+      ]
+    },
+    {
+      "title": "Database",
+      "items": ["T-SQL", "MySQL", "SQLite", "MongoDB"]
+    },
+    {
+      "title": "Other",
+      "items": ["Git", "GitHub", "Visual Studio"]
+    }
+  ],
   "qualifications": ["TODO", "TODO", "TODO", "TODO"],
   "projects": [
     {
