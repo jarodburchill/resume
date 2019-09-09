@@ -76,7 +76,11 @@
   },
   "summary": {
     "title": "Summary",
-    "data": ["TODO", "TODO", "TODO", "TODO"]
+    "data": [
+      "Front-end application development using the React JavaScript library with react-router for declarative routing and React Hooks for state management",
+      "Creates RESTful APIs with the Express.js framework for Node.js to modify NoSQL databases", 
+      "Advanced web page styling using styled-components, Sass and CSS Modules"
+    ]
   },
   "projects": {
     "title": "Projects",
@@ -99,7 +103,7 @@
         "startDate": "July 2019",
         "description": [
           "Python script for creating new projects in the desired local directory, with a GitHub origin",
-          "Open sourced project with multiple contributors"
+          "Open-sourced project with multiple contributors"
         ]
       },
       {
@@ -139,7 +143,7 @@
         "startDate": "May 2019",
         "endDate": "Present",
         "description": [
-          "Full stack web application development using Microsoft's ASP.NET framework",
+          "Full-stack web application development using Microsoft's ASP.NET framework",
           "Create dynamic client-side web pages with JavaScript",
           "Database management in Microsoft SQL Server",
           "Project source control with Visual Studio Team Foundation Server"
