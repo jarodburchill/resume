@@ -85,11 +85,11 @@ li {
   background: rgb(175, 175, 175);
 }
 
-.global-padding {
+.padding {
   padding: 1vh 2vh 0 2vh;
 }
 
-.global-header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -100,31 +100,36 @@ li {
   }
 }
 
-.global-location {
+.location {
   font-style: italic;
 }
 
-.global-description {
+.description {
   padding: 0 2vh;
 }
 
-.star {
+.contact {
   display: flex;
   align-items: center;
-  margin: 0 0 0 1vh;
+  margin: 1vh 0;
   img {
     width: 1.75vh;
-    margin: 0 0 0 0.5vh;
+    margin: 0 0.75vh 0 0;
   }
 }
 
-.fork {
+.repo {
   display: flex;
   align-items: center;
   margin: 0 0 0 1vh;
   img {
-    width: 1.25vh;
     margin: 0 0 0 0.5vh;
+  }
+  #star {
+    width: 1.75vh;
+  }
+  #fork {
+    width: 1.25vh;
   }
 }
 
@@ -178,31 +183,36 @@ li {
     padding-bottom: 2vw;
   }
 
-  .global-padding {
+  .padding {
     padding: 1vw * $ratio 2vw * $ratio 0 2vw * $ratio;
   }
 
-  .global-header {
+  .header {
     margin: 0.5vw * $ratio 0 0 0;
   }
 
-  .global-description {
+  .description {
     padding: 0 2vw * $ratio;
   }
 
-  .star {
-    margin: 0 0 0 1vw * $ratio;
+  .contact {
+    margin: 1vw * $ratio 0;
     img {
       width: 1.75vw * $ratio;
-      margin: 0 0 0 0.5vw * $ratio;
+      margin: 0 0.75vw * $ratio 0 0;
     }
   }
 
-  .fork {
+  .repo {
     margin: 0 0 0 1vw * $ratio;
     img {
-      width: 1.25vw * $ratio;
       margin: 0 0 0 0.5vw * $ratio;
+    }
+    #star {
+      width: 1.75vw * $ratio;
+    }
+    #fork {
+      width: 1.25vw * $ratio;
     }
   }
 }

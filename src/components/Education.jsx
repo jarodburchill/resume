@@ -6,7 +6,7 @@ function Education() {
   const education = data.education;
 
   return (
-    <div className="global-padding">
+    <div className="padding">
       <h3>Education</h3>
       <hr />
       {education.map((position, index) => {

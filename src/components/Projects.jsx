@@ -6,7 +6,7 @@ function Projects() {
   const projects = data.projects;
 
   return (
-    <div className="global-padding">
+    <div className="padding">
       <h3>Projects</h3>
       <hr />
       {projects.map((project, index) => {

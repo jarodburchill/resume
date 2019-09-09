@@ -6,7 +6,7 @@ function Experience() {
   const experience = data.experience;
 
   return (
-    <div className="global-padding">
+    <div className="padding">
       <h3>Work Experience</h3>
       <hr />
       {experience.map((position, index) => {

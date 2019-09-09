@@ -19,21 +19,21 @@ function Project({ project }) {
 
   return (
     <>
-      <div className="global-header">
+      <div className="header">
         <div>
           <h4>{project.title}</h4>
-          <span className="star">
+          <span className="repo">
             <p>{starCount}</p>
-            <img src={star} alt="GitHub Stars" />
+            <img src={star} alt="GitHub Stars" id="star" />
           </span>
-          <span className="fork">
+          <span className="repo">
             <p>{forkCount}</p>
-            <img src={fork} alt="GitHub Forks" />
+            <img src={fork} alt="GitHub Forks" id="fork" />
           </span>
         </div>
         <p>{project.startDate}</p>
       </div>
-      <div className="global-description">
+      <div className="description">
         <ul>
           {project.description.map((item, index) => {
             return <li key={index}>{item}</li>;

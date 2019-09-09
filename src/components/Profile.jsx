@@ -5,7 +5,7 @@ function Profile() {
   const profile = data.profile;
 
   return (
-    <div className="global-padding">
+    <div className="padding">
       <h1>{profile.name}</h1>
       <h2>{profile.profession}</h2>
     </div>

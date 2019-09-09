@@ -9,7 +9,7 @@ function Skills() {
   const other = skills.other;
 
   return (
-    <div className="global-padding">
+    <div className="padding">
       <h3>Technical Skills</h3>
       <hr />
       <h4>Front-end</h4>

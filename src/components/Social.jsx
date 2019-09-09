@@ -1,15 +1,23 @@
 import React from "react";
 import data from "../resume-data.json";
+import github from "../assets/github.svg";
+import linkedin from "../assets/linkedin.svg";
 
 function Social() {
   const social = data.social;
 
   return (
-    <div className="global-padding">
+    <div className="padding">
       <h3>Social</h3>
       <hr />
-      <p>{social.github}</p>
-      <p>{social.linkedin}</p>
+      <span className="contact">
+        <img src={github} alt="GitHub" />
+        <p>{social.github}</p>
+      </span>
+      <span className="contact">
+        <img src={linkedin} alt="LinkedIn" id="linkedin" />
+        <p>{social.linkedin}</p>
+      </span>
     </div>
   );
 }
