@@ -2,7 +2,7 @@ import React from "react";
 
 function Position({ position }) {
   return (
-    <>
+    <div className="group">
       <div className="header">
         <h4>{position.title}</h4>
         <p>
@@ -17,7 +17,7 @@ function Position({ position }) {
           })}
         </ul>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -18,7 +18,7 @@ function Project({ project }) {
   };
 
   return (
-    <>
+    <div className="group">
       <div className="header">
         <div>
           <h4>{project.title}</h4>
@@ -40,7 +40,7 @@ function Project({ project }) {
           })}
         </ul>
       </div>
-    </>
+    </div>
   );
 }
 
