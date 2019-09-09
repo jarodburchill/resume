@@ -69,7 +69,7 @@
       {
         "title": "Blackjack React App",
         "languages": ["React", "TypeScript"],
-        "repo": "https://github.com/jarodburchill/BlackjackReactApp",
+        "href": "https://github.com/jarodburchill/BlackjackReactApp",
         "api": "https://api.github.com/repos/jarodburchill/blackjackreactapp",
         "startDate": "August 2019",
         "description": [
@@ -81,7 +81,7 @@
       {
         "title": "Project Automation",
         "languages": ["Python"],
-        "repo": "https://github.com/jarodburchill/ProjectAutomation",
+        "href": "https://github.com/jarodburchill/ProjectAutomation",
         "api": "https://api.github.com/repos/jarodburchill/ProjectAutomation",
         "startDate": "July 2019",
         "description": [
@@ -92,7 +92,7 @@
       {
         "title": "Calculator React App",
         "languages": ["React", "Sass"],
-        "repo": "https://github.com/jarodburchill/CalculatorReactApp",
+        "href": "https://github.com/jarodburchill/CalculatorReactApp",
         "api": "https://api.github.com/repos/jarodburchill/CalculatorReactApp",
         "startDate": "June 2019",
         "description": [
