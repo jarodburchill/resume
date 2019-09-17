@@ -1,113 +1,4 @@
-$ratio: (11 / 8.5);
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-print-color-adjust: exact;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-hr {
-  margin: 0.25vh 0;
-  border: none;
-  background-color: rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-  height: 1px;
-}
-
-h1 {
-  font-size: 3.25vh;
-}
-
-h2 {
-  font-size: 2.75vh;
-  font-style: italic;
-  font-weight: 400;
-}
-
-h3 {
-  font-size: 2.5vh;
-}
-
-h4 {
-  font-size: 1.75vh;
-}
-
-p {
-  font-size: 1.5vh;
-}
-
-ul {
-  padding: 0.5vh 0 0 0;
-}
-
-li {
-  font-size: 1.25vh;
-}
-
-a {
-  position: relative;
-  text-decoration: none;
-  color: black;
-  &:before {
-    background-color: black;
-    content: "";
-    height: 1px;
-    position: absolute;
-    bottom: -1px;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: width 0.3s ease-in-out;
-    width: 100%;
-  }
-  &:hover {
-    color: #0000ee;
-    &:before {
-      width: 0;
-    }
-  }
-}
-
-.app-container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgb(70, 70, 70);
-}
-
-.page-container {
-  width: 100vh / $ratio;
-  height: 100vh;
-  display: flex;
-  box-shadow: 0px 1px 15px rgb(0, 0, 0);
-}
-
-.main-container {
-  width: ((100vh / $ratio) * 2) / 3;
-  height: 100vh;
-  background: white;
-}
-
-.sidebar-container {
-  width: (100vh / $ratio) / 3;
-  height: 100vh;
-  background: rgb(215, 215, 215);
-}
+$ratio: (11 /8.5);
 
 .padding {
   padding: 1vh 2vh 0 2vh;
@@ -165,55 +56,6 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-  hr {
-    margin: 0.25vw 0;
-  }
-
-  h1 {
-    font-size: 3.25vw;
-  }
-
-  h2 {
-    font-size: 2.75vw;
-  }
-
-  h3 {
-    font-size: 2.5vw;
-  }
-
-  h4 {
-    font-size: 1.75vw;
-  }
-
-  p {
-    font-size: 1.5vw;
-  }
-
-  ul {
-    padding: 0.5vw 0 0 0;
-  }
-
-  li {
-    font-size: 1.25vw;
-  }
-
-  .page-container {
-    width: 100vw;
-    height: max-content;
-  }
-
-  .main-container {
-    width: 67vw;
-    height: auto;
-    padding-bottom: 2vw;
-  }
-
-  .sidebar-container {
-    width: 33vw;
-    height: auto;
-    padding-bottom: 2vw;
-  }
-
   .padding {
     padding: 1vw 2vw 0 2vw;
   }
@@ -253,24 +95,7 @@ a {
 }
 
 @media print {
-  // @page {
-  //   margin: 0;
-  // }
   .page-container {
     box-shadow: none;
-  }
-  a {
-    &:before {
-      background-color: unset;
-      content: unset;
-      height: unset;
-      position: unset;
-      bottom: unset;
-      left: unset;
-      transform: unset;
-      transition: unset;
-      width: unset;
-    }
-    color: black;
   }
 }
