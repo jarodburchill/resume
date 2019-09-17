@@ -1,6 +1,6 @@
 import React from "react";
 
-function Position({ position }) {
+const Position = ({ position }) => {
   return (
     <div className="group">
       <div className="header">
@@ -19,6 +19,6 @@ function Position({ position }) {
       </div>
     </div>
   );
-}
+};
 
 export default Position;

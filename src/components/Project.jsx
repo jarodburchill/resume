@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import star from "../assets/star.svg";
 import fork from "../assets/fork.svg";
 
-function Project({ project }) {
+const Project = ({ project }) => {
   const [starCount, setStarCount] = useState(0);
   const [forkCount, setForkCount] = useState(0);
 
@@ -44,6 +44,6 @@ function Project({ project }) {
       </div>
     </div>
   );
-}
+};
 
 export default Project;

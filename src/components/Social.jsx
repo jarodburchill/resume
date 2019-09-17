@@ -3,7 +3,7 @@ import json from "../resume-data.json";
 import github from "../assets/github.svg";
 import linkedin from "../assets/linkedin.svg";
 
-function Social() {
+const Social = () => {
   const social = json.social;
 
   return (
@@ -24,6 +24,6 @@ function Social() {
       </span>
     </div>
   );
-}
+};
 
 export default Social;

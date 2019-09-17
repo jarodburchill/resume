@@ -1,7 +1,7 @@
 import React from "react";
 import json from "../resume-data.json";
 
-function Summary() {
+const Summary = () => {
   const summary = json.summary;
 
   return (
@@ -17,6 +17,6 @@ function Summary() {
       </div>
     </div>
   );
-}
+};
 
 export default Summary;

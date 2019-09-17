@@ -1,6 +1,6 @@
 import React from "react";
 
-function Skillset({ skillset }) {
+const Skillset = ({ skillset }) => {
   return (
     <div className="skillset">
       <h4>{skillset.title}</h4>
@@ -9,6 +9,6 @@ function Skillset({ skillset }) {
       })}
     </div>
   );
-}
+};
 
 export default Skillset;

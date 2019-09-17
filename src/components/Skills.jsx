@@ -2,7 +2,7 @@ import React from "react";
 import Skillset from "./Skillset";
 import json from "../resume-data.json";
 
-function Skills() {
+const Skills = () => {
   const skills = json.skills;
 
   return (
@@ -14,6 +14,6 @@ function Skills() {
       })}
     </div>
   );
-}
+};
 
 export default Skills;

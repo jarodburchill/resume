@@ -2,7 +2,7 @@ import React from "react";
 import Position from "./Position";
 import json from "../resume-data.json";
 
-function Education() {
+const Education = () => {
   const education = json.education;
 
   return (
@@ -14,6 +14,6 @@ function Education() {
       })}
     </div>
   );
-}
+};
 
 export default Education;

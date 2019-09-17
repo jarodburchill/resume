@@ -1,7 +1,7 @@
 import React from "react";
 import json from "../resume-data.json";
 
-function Profile() {
+const Profile = () => {
   const profile = json.profile;
 
   return (
@@ -10,6 +10,6 @@ function Profile() {
       <h2>{profile.data.profession}</h2>
     </div>
   );
-}
+};
 
 export default Profile;

@@ -17,7 +17,7 @@ const Container = styled.div`
   }
 `;
 
-function SideBar() {
+const SideBar = () => {
   return (
     <Container ratio={11 / 8.5}>
       <Profile />
@@ -26,6 +26,6 @@ function SideBar() {
       <Skills />
     </Container>
   );
-}
+};
 
 export default SideBar;

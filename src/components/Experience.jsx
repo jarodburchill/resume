@@ -2,7 +2,7 @@ import React from "react";
 import Position from "./Position";
 import json from "../resume-data.json";
 
-function Experience() {
+const Experience = () => {
   const experience = json.experience;
 
   return (
@@ -14,6 +14,6 @@ function Experience() {
       })}
     </div>
   );
-}
+};
 
 export default Experience;

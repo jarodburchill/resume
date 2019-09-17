@@ -17,7 +17,7 @@ const Container = styled.div`
   }
 `;
 
-function Main() {
+const Main = () => {
   return (
     <Container ratio={11 / 8.5}>
       <Summary />
@@ -26,6 +26,6 @@ function Main() {
       <Experience />
     </Container>
   );
-}
+};
 
 export default Main;

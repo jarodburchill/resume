@@ -2,7 +2,7 @@ import React from "react";
 import Project from "./Project";
 import json from "../resume-data.json";
 
-function Projects() {
+const Projects = () => {
   const projects = json.projects;
 
   return (
@@ -14,6 +14,6 @@ function Projects() {
       })}
     </div>
   );
-}
+};
 
 export default Projects;

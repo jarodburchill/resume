@@ -4,7 +4,7 @@ import address from "../assets/address.svg";
 import phone from "../assets/phone.svg";
 import email from "../assets/email.svg";
 
-function Info() {
+const Info = () => {
   const info = json.info;
 
   return (
@@ -31,6 +31,6 @@ function Info() {
       </span>
     </div>
   );
-}
+};
 
 export default Info;
