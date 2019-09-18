@@ -9,13 +9,15 @@ const Summary = () => {
     <Spacing>
       <h3>{summary.title}</h3>
       <hr />
-      <div className="description">
-        <ul>
-          {summary.data.map((item, index) => {
-            return <li key={index}>{item}</li>;
-          })}
-        </ul>
-      </div>
+      <Spacing margin>
+        <div className="description">
+          <ul>
+            {summary.data.map((item, index) => {
+              return <li key={index}>{item}</li>;
+            })}
+          </ul>
+        </div>
+      </Spacing>
     </Spacing>
   );
 };
