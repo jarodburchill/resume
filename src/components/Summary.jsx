@@ -9,7 +9,7 @@ const Summary = () => {
     <Spacing>
       <h3>{summary.title}</h3>
       <hr />
-      <Spacing margin>
+      <Spacing subgroup>
         <div className="description">
           <ul>
             {summary.data.map((item, index) => {

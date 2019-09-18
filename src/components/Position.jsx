@@ -3,7 +3,7 @@ import Spacing from "./styles/Spacing";
 
 const Position = ({ position }) => {
   return (
-    <Spacing margin>
+    <Spacing subgroup>
       <div className="header">
         <h4>{position.title}</h4>
         <p>

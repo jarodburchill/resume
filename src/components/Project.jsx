@@ -19,7 +19,7 @@ const Project = ({ project }) => {
   };
 
   return (
-    <Spacing margin>
+    <Spacing subgroup>
       <div className="header">
         <div>
           <h4>
