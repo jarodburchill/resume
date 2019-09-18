@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Group from "./styles/Group";
+import Header from "./styles/Header";
+import styled from "styled-components";
 import star from "../assets/star.svg";
 import fork from "../assets/fork.svg";
+
+const ProjectName = styled.div`
+  display: flex;
+  align-items: center;
+`;
 
 const Project = ({ project }) => {
   const [starCount, setStarCount] = useState(0);
@@ -20,8 +27,8 @@ const Project = ({ project }) => {
 
   return (
     <Group subgroup>
-      <div className="header">
-        <div>
+      <Header>
+        <ProjectName>
           <h4>
             <a href={project.href}>{project.title}</a>
           </h4>
@@ -33,9 +40,9 @@ const Project = ({ project }) => {
             <p>{forkCount}</p>
             <img src={fork} alt="GitHub Forks" id="fork" />
           </span>
-        </div>
+        </ProjectName>
         <p>{project.startDate}</p>
-      </div>
+      </Header>
       <div className="description">
         <ul>
           {project.description.map((item, index) => {

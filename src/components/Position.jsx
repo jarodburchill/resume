@@ -1,15 +1,16 @@
 import React from "react";
 import Group from "./styles/Group";
+import Header from "./styles/Header";
 
 const Position = ({ position }) => {
   return (
     <Group subgroup>
-      <div className="header">
+      <Header>
         <h4>{position.title}</h4>
         <p>
           {position.startDate} - {position.endDate}
         </p>
-      </div>
+      </Header>
       <p className="location">{position.location}</p>
       <div className="description">
         <ul>
