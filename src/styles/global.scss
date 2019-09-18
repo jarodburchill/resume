@@ -1,13 +1,3 @@
-.contact {
-  display: flex;
-  align-items: center;
-  margin: 1vh 0 0 0;
-  img {
-    width: 1.75vh;
-    margin: 0 0.75vh 0 0;
-  }
-}
-
 .repo {
   display: flex;
   align-items: center;
@@ -24,14 +14,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .contact {
-    margin: 1vw 0;
-    img {
-      width: 1.75vw;
-      margin: 0 0.75vw 0 0;
-    }
-  }
-
   .repo {
     margin: 0 0 0 1vw;
     img {
