@@ -1,5 +1,6 @@
 import React from "react";
 import Group from "./styles/Group";
+import Description from "./styles/Description";
 import json from "../resume-data.json";
 
 const Summary = () => {
@@ -10,13 +11,13 @@ const Summary = () => {
       <h3>{summary.title}</h3>
       <hr />
       <Group subgroup>
-        <div className="description">
+        <Description>
           <ul>
             {summary.data.map((item, index) => {
               return <li key={index}>{item}</li>;
             })}
           </ul>
-        </div>
+        </Description>
       </Group>
     </Group>
   );

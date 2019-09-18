@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Group from "./styles/Group";
 import Header from "./styles/Header";
+import Description from "./styles/Description";
 import styled from "styled-components";
 import star from "../assets/star.svg";
 import fork from "../assets/fork.svg";
@@ -43,13 +44,13 @@ const Project = ({ project }) => {
         </ProjectName>
         <p>{project.startDate}</p>
       </Header>
-      <div className="description">
+      <Description>
         <ul>
           {project.description.map((item, index) => {
             return <li key={index}>{item}</li>;
           })}
         </ul>
-      </div>
+      </Description>
     </Group>
   );
 };
