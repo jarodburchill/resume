@@ -1,6 +1,7 @@
 import React from "react";
 import Group from "./styles/Group";
-
+import Contact from "./styles/Contact";
+import Icon from "./styles/Icon";
 import json from "../resume-data.json";
 import github from "../assets/github.svg";
 import linkedin from "../assets/linkedin.svg";
@@ -12,18 +13,18 @@ const Social = () => {
     <Group>
       <h3>{social.title}</h3>
       <hr />
-      <span className="contact">
-        <img src={github} alt="GitHub" />
+      <Contact>
+        <Icon src={github} alt="GitHub" />
         <p>
           <a href={social.data.github.href}>{social.data.github.text}</a>
         </p>
-      </span>
-      <span className="contact">
-        <img src={linkedin} alt="LinkedIn" id="linkedin" />
+      </Contact>
+      <Contact>
+        <Icon src={linkedin} alt="LinkedIn" />
         <p>
           <a href={social.data.linkedin.href}>{social.data.linkedin.text}</a>
         </p>
-      </span>
+      </Contact>
     </Group>
   );
 };

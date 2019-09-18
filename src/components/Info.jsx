@@ -1,5 +1,7 @@
 import React from "react";
 import Group from "./styles/Group";
+import Contact from "./styles/Contact";
+import Icon from "./styles/Icon";
 import json from "../resume-data.json";
 import address from "../assets/address.svg";
 import phone from "../assets/phone.svg";
@@ -12,24 +14,24 @@ const Info = () => {
     <Group>
       <h3>{info.title}</h3>
       <hr />
-      <span className="contact">
-        <img src={address} alt="Address" />
+      <Contact>
+        <Icon src={address} alt="Address" />
         <p>
           <a href={info.data.address.href}>{info.data.address.text}</a>
         </p>
-      </span>
-      <span className="contact">
-        <img src={phone} alt="Phone" />
+      </Contact>
+      <Contact>
+        <Icon src={phone} alt="Phone" />
         <p>
           <a href={info.data.phone.href}>{info.data.phone.text}</a>
         </p>
-      </span>
-      <span className="contact">
-        <img src={email} alt="Email" />
+      </Contact>
+      <Contact>
+        <Icon src={email} alt="Email" />
         <p>
           <a href={info.data.email.href}>{info.data.email.text}</a>
         </p>
-      </span>
+      </Contact>
     </Group>
   );
 };
