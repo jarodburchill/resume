@@ -44,6 +44,7 @@
           "HTML",
           "CSS",
           "Sass",
+          "styled-components",
           "Bootstrap",
           "JavaScript",
           "TypeScript",
@@ -78,7 +79,7 @@
     "title": "Summary",
     "data": [
       "Front-end application development using the React JavaScript library with react-router for declarative routing and React Hooks for state management",
-      "Create RESTful APIs with the Express.js framework for Node.js to modify NoSQL databases", 
+      "Create RESTful APIs with the Express.js framework for Node.js to modify NoSQL databases",
       "Advanced web page styling using styled-components, Sass and CSS Modules"
     ]
   },
