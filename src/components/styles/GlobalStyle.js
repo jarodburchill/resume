@@ -46,10 +46,6 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1.5vh;
   }
 
-  ul {
-    padding: 0.5vh 0 0 0;
-  }
-
   li {
     font-size: 1.25vh;
   }
@@ -100,10 +96,6 @@ const GlobalStyle = createGlobalStyle`
 
     p {
       font-size: 1.5vw;
-    }
-
-    ul {
-      padding: 0.5vw 0 0 0;
     }
 
     li {
