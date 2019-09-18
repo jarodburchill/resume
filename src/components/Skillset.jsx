@@ -1,13 +1,14 @@
 import React from "react";
+import Group from "./styles/Group";
 
 const Skillset = ({ skillset }) => {
   return (
-    <div className="skillset">
+    <Group subgroup>
       <h4>{skillset.title}</h4>
       {skillset.items.map((skill, index) => {
         return <p key={index}>{skill}</p>;
       })}
-    </div>
+    </Group>
   );
 };
 

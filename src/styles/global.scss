@@ -1,7 +1,3 @@
-.skillset {
-  margin: 1vh 0;
-}
-
 .contact {
   display: flex;
   align-items: center;
@@ -28,10 +24,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .skillset {
-    margin: 1vw 0;
-  }
-
   .contact {
     margin: 1vw 0;
     img {
