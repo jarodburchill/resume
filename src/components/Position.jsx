@@ -1,8 +1,9 @@
 import React from "react";
+import Spacing from "./styles/Spacing";
 
 const Position = ({ position }) => {
   return (
-    <div className="group">
+    <Spacing margin>
       <div className="header">
         <h4>{position.title}</h4>
         <p>
@@ -17,7 +18,7 @@ const Position = ({ position }) => {
           })}
         </ul>
       </div>
-    </div>
+    </Spacing>
   );
 };
 

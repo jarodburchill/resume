@@ -1,11 +1,12 @@
 import React from "react";
+import Spacing from "./styles/Spacing";
 import json from "../resume-data.json";
 
 const Summary = () => {
   const summary = json.summary;
 
   return (
-    <div className="padding">
+    <Spacing>
       <h3>{summary.title}</h3>
       <hr />
       <div className="description">
@@ -15,7 +16,7 @@ const Summary = () => {
           })}
         </ul>
       </div>
-    </div>
+    </Spacing>
   );
 };
 

@@ -1,13 +1,5 @@
 $ratio: (11 /8.5);
 
-.padding {
-  padding: 1vh 2vh 0 2vh;
-}
-
-.group {
-  margin: 0.5vh 0 0 0;
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -56,14 +48,6 @@ $ratio: (11 /8.5);
 }
 
 @media screen and (max-width: 600px) {
-  .padding {
-    padding: 1vw 2vw 0 2vw;
-  }
-
-  .group {
-    margin: 0.5vw 0 0 0;
-  }
-
   .description {
     padding: 0 2vw;
   }

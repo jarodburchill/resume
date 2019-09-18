@@ -1,4 +1,5 @@
 import React from "react";
+import Spacing from "./styles/Spacing";
 import json from "../resume-data.json";
 import address from "../assets/address.svg";
 import phone from "../assets/phone.svg";
@@ -8,7 +9,7 @@ const Info = () => {
   const info = json.info;
 
   return (
-    <div className="padding">
+    <Spacing>
       <h3>{info.title}</h3>
       <hr />
       <span className="contact">
@@ -29,7 +30,7 @@ const Info = () => {
           <a href={info.data.email.href}>{info.data.email.text}</a>
         </p>
       </span>
-    </div>
+    </Spacing>
   );
 };
 

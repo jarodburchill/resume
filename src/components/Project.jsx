@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Spacing from "./styles/Spacing";
 import star from "../assets/star.svg";
 import fork from "../assets/fork.svg";
 
@@ -18,7 +19,7 @@ const Project = ({ project }) => {
   };
 
   return (
-    <div className="group">
+    <Spacing margin>
       <div className="header">
         <div>
           <h4>
@@ -42,7 +43,7 @@ const Project = ({ project }) => {
           })}
         </ul>
       </div>
-    </div>
+    </Spacing>
   );
 };
 
