@@ -1,5 +1,5 @@
 import React from "react";
-import Spacing from "./styles/Spacing";
+import Group from "./styles/Group";
 import Position from "./Position";
 import json from "../resume-data.json";
 
@@ -7,13 +7,13 @@ const Education = () => {
   const education = json.education;
 
   return (
-    <Spacing>
+    <Group>
       <h3>{education.title}</h3>
       <hr />
       {education.data.map((position, index) => {
         return <Position key={index} position={position} />;
       })}
-    </Spacing>
+    </Group>
   );
 };
 

@@ -1,15 +1,15 @@
 import React from "react";
-import Spacing from "./styles/Spacing";
+import Group from "./styles/Group";
 import json from "../resume-data.json";
 
 const Summary = () => {
   const summary = json.summary;
 
   return (
-    <Spacing>
+    <Group>
       <h3>{summary.title}</h3>
       <hr />
-      <Spacing subgroup>
+      <Group subgroup>
         <div className="description">
           <ul>
             {summary.data.map((item, index) => {
@@ -17,8 +17,8 @@ const Summary = () => {
             })}
           </ul>
         </div>
-      </Spacing>
-    </Spacing>
+      </Group>
+    </Group>
   );
 };
 

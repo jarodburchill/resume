@@ -1,9 +1,9 @@
 import React from "react";
-import Spacing from "./styles/Spacing";
+import Group from "./styles/Group";
 
 const Position = ({ position }) => {
   return (
-    <Spacing subgroup>
+    <Group subgroup>
       <div className="header">
         <h4>{position.title}</h4>
         <p>
@@ -18,7 +18,7 @@ const Position = ({ position }) => {
           })}
         </ul>
       </div>
-    </Spacing>
+    </Group>
   );
 };
 

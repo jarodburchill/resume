@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Spacing = styled.div`
+const Group = styled.div`
   padding: ${props => (props.subgroup ? "0" : "1vh 2vh 0 2vh")};
   margin: ${props => (props.subgroup ? "0.5vh 0 0 0" : "0")};
   @media screen and (max-width: 600px) {
@@ -9,4 +9,4 @@ const Spacing = styled.div`
   }
 `;
 
-export default Spacing;
+export default Group;

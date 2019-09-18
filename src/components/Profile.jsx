@@ -1,15 +1,15 @@
 import React from "react";
-import Spacing from "./styles/Spacing";
+import Group from "./styles/Group";
 import json from "../resume-data.json";
 
 const Profile = () => {
   const profile = json.profile;
 
   return (
-    <Spacing>
+    <Group>
       <h1>{profile.data.name}</h1>
       <h2>{profile.data.profession}</h2>
-    </Spacing>
+    </Group>
   );
 };
 
