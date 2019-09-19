@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Group from "./styles/Group";
 import Header from "./styles/Header";
 import Description from "./styles/Description";
+import Icon from "./styles/Icon";
 import styled from "styled-components";
 import star from "../assets/star.svg";
 import fork from "../assets/fork.svg";
@@ -11,15 +12,31 @@ const ProjectName = styled.div`
   align-items: center;
 `;
 
+const ProjectStats = styled.span`
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 1vh;
+  img {
+    margin: 0 1vh 0 0.5vh;
+  }
+
+  @media screen and (max-width: 600px) {
+    margin: 0 0 0 1vw;
+    img {
+      margin: 0 1vw 0 0.5vw;
+    }
+  }
+`;
+
 const Project = ({ project }) => {
   const [starCount, setStarCount] = useState(0);
   const [forkCount, setForkCount] = useState(0);
 
   useEffect(() => {
-    getRepoStats();
+    getProjectStats();
   });
 
-  const getRepoStats = async () => {
+  const getProjectStats = async () => {
     const response = await fetch(project.api);
     const data = await response.json();
     setStarCount(data.stargazers_count);
@@ -33,14 +50,12 @@ const Project = ({ project }) => {
           <h4>
             <a href={project.href}>{project.title}</a>
           </h4>
-          <span className="repo">
+          <ProjectStats>
             <p>{starCount}</p>
-            <img src={star} alt="GitHub Stars" id="star" />
-          </span>
-          <span className="repo">
+            <Icon src={star} alt="GitHub Stars" />
             <p>{forkCount}</p>
-            <img src={fork} alt="GitHub Forks" id="fork" />
-          </span>
+            <Icon src={fork} width={1.25} alt="GitHub Forks" />
+          </ProjectStats>
         </ProjectName>
         <p>{project.startDate}</p>
       </Header>
