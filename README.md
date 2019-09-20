@@ -6,7 +6,7 @@ My professional developer resume, created using React web components. All data p
 
 ### Link:
 
-https://jarodburchill.github.io/Resume
+https://jarodburchill.github.io/resume
 
 ### Preview:
 
