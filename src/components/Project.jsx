@@ -16,13 +16,13 @@ const ProjectStats = styled.span`
   display: flex;
   align-items: center;
   margin: 0 0 0 1vh;
-  img {
+  ${Icon} {
     margin: 0 1vh 0 0.5vh;
   }
 
   @media screen and (max-width: 600px) {
     margin: 0 0 0 1vw;
-    img {
+    ${Icon} {
       margin: 0 1vw 0 0.5vw;
     }
   }
