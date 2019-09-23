@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/Resume/static/js/main.2802e7d8.chunk.js",
-    "main.js.map": "/Resume/static/js/main.2802e7d8.chunk.js.map",
-    "runtime~main.js": "/Resume/static/js/runtime~main.e8bdb40c.js",
-    "runtime~main.js.map": "/Resume/static/js/runtime~main.e8bdb40c.js.map",
-    "static/js/2.8056013e.chunk.js": "/Resume/static/js/2.8056013e.chunk.js",
-    "static/js/2.8056013e.chunk.js.map": "/Resume/static/js/2.8056013e.chunk.js.map",
-    "index.html": "/Resume/index.html",
-    "precache-manifest.c93a4446f36cafd9621d29be5badc287.js": "/Resume/precache-manifest.c93a4446f36cafd9621d29be5badc287.js",
-    "service-worker.js": "/Resume/service-worker.js",
-    "static/media/address.svg": "/Resume/static/media/address.b3bfe632.svg",
-    "static/media/email.svg": "/Resume/static/media/email.5b835c77.svg",
-    "static/media/fork.svg": "/Resume/static/media/fork.9a35fb6c.svg",
-    "static/media/github.svg": "/Resume/static/media/github.ad3904b1.svg",
-    "static/media/linkedin.svg": "/Resume/static/media/linkedin.ae4ecef4.svg",
-    "static/media/phone.svg": "/Resume/static/media/phone.c2fd7ba0.svg",
-    "static/media/star.svg": "/Resume/static/media/star.8ce11092.svg"
+    "main.js": "/resume/static/js/main.2802e7d8.chunk.js",
+    "main.js.map": "/resume/static/js/main.2802e7d8.chunk.js.map",
+    "runtime~main.js": "/resume/static/js/runtime~main.c66e9529.js",
+    "runtime~main.js.map": "/resume/static/js/runtime~main.c66e9529.js.map",
+    "static/js/2.619522a0.chunk.js": "/resume/static/js/2.619522a0.chunk.js",
+    "static/js/2.619522a0.chunk.js.map": "/resume/static/js/2.619522a0.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "precache-manifest.e179f91db52d6086f803897136bd4ff3.js": "/resume/precache-manifest.e179f91db52d6086f803897136bd4ff3.js",
+    "service-worker.js": "/resume/service-worker.js",
+    "static/media/address.svg": "/resume/static/media/address.b3bfe632.svg",
+    "static/media/email.svg": "/resume/static/media/email.5b835c77.svg",
+    "static/media/fork.svg": "/resume/static/media/fork.9a35fb6c.svg",
+    "static/media/github.svg": "/resume/static/media/github.ad3904b1.svg",
+    "static/media/linkedin.svg": "/resume/static/media/linkedin.ae4ecef4.svg",
+    "static/media/phone.svg": "/resume/static/media/phone.c2fd7ba0.svg",
+    "static/media/star.svg": "/resume/static/media/star.8ce11092.svg"
   }
 }
