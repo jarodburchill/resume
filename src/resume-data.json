@@ -88,8 +88,8 @@
     "data": [
       {
         "title": "Blackjack React App",
-        "href": "https://github.com/jarodburchill/BlackjackReactApp",
-        "api": "https://api.github.com/repos/jarodburchill/blackjackreactapp",
+        "href": "https://github.com/jarodburchill/blackjack-react-app",
+        "api": "https://api.github.com/repos/jarodburchill/blackjack-react-app",
         "startDate": "August 2019",
         "description": [
           "Blackjack card game built in React, using TypeScript",
@@ -99,8 +99,8 @@
       },
       {
         "title": "Project Automation",
-        "href": "https://github.com/jarodburchill/ProjectAutomation",
-        "api": "https://api.github.com/repos/jarodburchill/ProjectAutomation",
+        "href": "https://github.com/jarodburchill/project-automation",
+        "api": "https://api.github.com/repos/jarodburchill/project-automation",
         "startDate": "July 2019",
         "description": [
           "Python script for creating new projects in the desired local directory, with a GitHub origin",
@@ -109,8 +109,8 @@
       },
       {
         "title": "Calculator React App",
-        "href": "https://github.com/jarodburchill/CalculatorReactApp",
-        "api": "https://api.github.com/repos/jarodburchill/CalculatorReactApp",
+        "href": "https://github.com/jarodburchill/calculator-react-App",
+        "api": "https://api.github.com/repos/jarodburchill/calculator-react-App",
         "startDate": "June 2019",
         "description": [
           "Functional calculator built in React",
