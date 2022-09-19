@@ -6,7 +6,7 @@ import Social from "./Social";
 import Skills from "./Skills";
 
 const Container = styled.div`
-  width: calc((100vh / ${props => props.ratio}) / 3);
+  width: calc((100vh / ${(props) => props.ratio}) / 3);
   height: 100vh;
   background: rgb(215, 215, 215);
 

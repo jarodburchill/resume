@@ -43,7 +43,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   p {
-    font-size: 1.5vh;
+    font-size: 1.45vh;
   }
 
   li {
@@ -95,7 +95,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     p {
-      font-size: 1.5vw;
+      font-size: 1.45vw;
     }
 
     li {

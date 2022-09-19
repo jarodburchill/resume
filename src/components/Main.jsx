@@ -6,7 +6,7 @@ import Education from "./Education";
 import Experience from "./Experience";
 
 const Container = styled.div`
-  width: calc(((100vh / ${props => props.ratio}) / 3) * 2);
+  width: calc(((100vh / ${(props) => props.ratio}) / 3) * 2);
   height: 100vh;
   background: white;
 
@@ -21,9 +21,9 @@ const Main = () => {
   return (
     <Container ratio={11 / 8.5}>
       <Summary />
-      <Projects />
-      <Education />
       <Experience />
+      <Education />
+      <Projects />
     </Container>
   );
 };

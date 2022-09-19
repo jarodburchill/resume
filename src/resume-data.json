@@ -2,18 +2,18 @@
   "profile": {
     "data": {
       "name": "Jarod Burchill",
-      "profession": "Developer"
+      "profession": "Software Engineer"
     }
   },
   "info": {
     "title": "Information",
     "data": {
       "address": {
-        "text": "Kitchener, Ontario, Canada",
-        "href": "https://www.google.com/maps/place/Kitchener,+ON"
+        "text": "Calgary, Alberta, Canada",
+        "href": "https://www.google.com/maps/place/Calgary,+AB"
       },
       "phone": {
-        "text": "(519) 282-8028",
+        "text": "+1 (519) 282-8028",
         "href": "tel:+15192828028"
       },
       "email": {
@@ -23,7 +23,7 @@
     }
   },
   "social": {
-    "title": "Social",
+    "title": "Socials",
     "data": {
       "github": {
         "text": "github.com/jarodburchill",
@@ -39,52 +39,62 @@
     "title": "Technical Skills",
     "data": [
       {
-        "title": "Front-end",
+        "title": "Frontend",
         "items": [
           "HTML",
           "CSS",
-          "Sass",
-          "styled-components",
-          "Bootstrap",
+          "Styled-Components",
+          "Material UI",
           "JavaScript",
           "TypeScript",
           "React",
-          "jQuery"
+          "Next.js",
+          "React-Query/SWR"
         ]
       },
       {
-        "title": "Back-end",
+        "title": "Backend",
         "items": [
-          "Python",
           "Node.js",
           "Express.js",
-          "PHP",
-          "Laravel",
+          "NestJS",
+          "TypeORM",
+          "Python",
+          "Flask",
+          "SQLAlchemy",
+          "C#",
           "ASP.NET",
-          "C#.NET",
-          "Java"
+          "OpenAPI/Swagger"
         ]
       },
       {
         "title": "Database",
-        "items": ["T-SQL", "MySQL", "SQLite", "MongoDB"]
+        "items": ["PostgreSQL", "T-SQL", "MySQL"]
       },
       {
         "title": "Other",
-        "items": ["Git", "GitHub", "Visual Studio"]
+        "items": [
+          "Docker",
+          "Kubernetes",
+          "Azure DevOps",
+          "Jest",
+          "Pytest",
+          "Git",
+          "Bash/Zsh",
+          "VS Code/JetBrains IDEs"
+        ]
       }
     ]
   },
   "summary": {
     "title": "Summary",
     "data": [
-      "Front-end application development using the React JavaScript library with react-router for declarative routing and React Hooks for state management",
-      "Create RESTful APIs with the Express.js framework for Node.js to modify NoSQL databases",
-      "Advanced web page styling using styled-components, Sass and CSS Modules"
+      "Passionate about crafting clean, \"DRY\" code, that produces quality software",
+      "Enthusiastic about contributing to open-source software"
     ]
   },
   "projects": {
-    "title": "Projects",
+    "title": "Portfolio Highlight",
     "data": [
       {
         "title": "Blackjack React App",
@@ -92,29 +102,8 @@
         "api": "https://api.github.com/repos/jarodburchill/blackjack-react-app",
         "startDate": "August 2019",
         "description": [
-          "Blackjack card game built in React, using TypeScript",
-          "All application state is managed with React Hooks",
+          "Blackjack card game built in React using TypeScript, React Hooks, and custom CSS",
           "Featured in the August 29th, 2019 issue of the React.js Newsletter by Tyler McGinnis"
-        ]
-      },
-      {
-        "title": "Project Automation",
-        "href": "https://github.com/jarodburchill/project-automation",
-        "api": "https://api.github.com/repos/jarodburchill/project-automation",
-        "startDate": "July 2019",
-        "description": [
-          "Python script for creating new projects in the desired local directory, with a GitHub origin",
-          "Open-sourced project with multiple contributors"
-        ]
-      },
-      {
-        "title": "Calculator React App",
-        "href": "https://github.com/jarodburchill/calculator-react-App",
-        "api": "https://api.github.com/repos/jarodburchill/calculator-react-App",
-        "startDate": "June 2019",
-        "description": [
-          "Functional calculator built in React",
-          "Styled using Sass variables, nesting, operators and mixins."
         ]
       }
     ]
@@ -126,11 +115,10 @@
         "title": "Computer Programmer/Analyst",
         "location": "Conestoga College, Kitchener, Ontario",
         "startDate": "September 2017",
-        "endDate": "Present",
+        "endDate": "April 2021",
         "description": [
-          "Passionate about learning, currently maintaining a 3.88 GPA (89.5% average)",
-          "Obtained key analytical and problem-solving skills through assignments and projects",
-          "Interpersonal and Group Dynamics elective strengthened collaboration skills"
+          "Ontario College Advanced Diploma",
+          "Graduated with High Distinction (3.90 GPA, 90% average)"
         ]
       }
     ]
@@ -139,37 +127,60 @@
     "title": "Work Experience",
     "data": [
       {
+        "title": "Full Stack Software Engineer",
+        "location": "Acerta Analytics Solutions, Remote",
+        "startDate": "May 2021",
+        "endDate": "Present",
+        "description": [
+          "Awarded \"Acerta Technical Excellence\" for standardizing and adopting best practices",
+          "Architected NestJS template repository to ensure clean and consistent code across backend microservices",
+          "Pioneered and standardized automated testing with Jest, and data persistence/migrations with TypeORM, in NestJS microservices",
+          "Designed and implemented features spanning across the entire tech stack",
+          "Consumed and integrated with third party APIs such as Twilio Sendgrid",
+          "Delivered quality software every sprint in an agile/scrum environment",
+          "Actively participated in the code review process via GitHub",
+          "Responsible for screening and interviewing candidates for technical roles"
+        ]
+      },
+      {
+        "title": "Frontend Software Engineer",
+        "location": "Acerta Analytics Solutions, Kitchener, Ontario",
+        "startDate": "September 2020",
+        "endDate": "April 2021",
+        "description": [
+          "Wrote and maintained modern TypeScript code using the latest ECMAScript language features",
+          "Streamlined frontend data fetching and cashing with react-query",
+          "Delivered user interfaces for customer demos while finishing college"
+        ]
+      },
+      {
+        "title": "Backend Software Engineer Intern",
+        "location": "Acerta Analytics Solutions, Kitchener, Ontario",
+        "startDate": "May 2020",
+        "endDate": "August 2020",
+        "description": [
+          "Created RESTful APIs with OpenAPI 3.0 documentation",
+          "Wrote automated tests with Pytest for new features in Python Flask backend microservices"
+        ]
+      },
+      {
+        "title": "Frontend Software Engineer Intern",
+        "location": "Acerta Analytics Solutions, Kitchener, Ontario",
+        "startDate": "January 2020",
+        "endDate": "April 2020",
+        "description": [
+          "Led in implementing new technologies to the tech stack, including React Hooks and TypeScript",
+          "Built custom React web components that required advanced custom CSS"
+        ]
+      },
+      {
         "title": "Programmer/Analyst (Co-op)",
         "location": "Waterloo Regional Police Service, Cambridge, Ontario",
         "startDate": "May 2019",
-        "endDate": "Present",
+        "endDate": "December 2019",
         "description": [
-          "Full-stack web application development using Microsoft's ASP.NET framework",
-          "Create dynamic client-side web pages with JavaScript",
-          "Database management in Microsoft SQL Server",
-          "Project source control with Visual Studio Team Foundation Server"
-        ]
-      },
-      {
-        "title": "Geek Squad Agent",
-        "location": "Best Buy Canada, Kitchener, Ontario",
-        "startDate": "February 2019",
-        "endDate": "April 2019",
-        "description": [
-          "Engaged with clients to find the best solution for their technology needs",
-          "Educated clients on new aspects of technology that are difficult to understand",
-          "Performed setup, maintenance, and repairs on client’s hardware"
-        ]
-      },
-      {
-        "title": "Operations Representative",
-        "location": "Best Buy Canada, Kitchener, Ontario",
-        "startDate": "October 2018",
-        "endDate": "April 2019",
-        "description": [
-          "Provided friendly customer service in a fast-paced environment",
-          "Set aside time to gain knowledge about the newest technologies",
-          "Reviewed service packages with customers, ensuring a satisfying experience"
+          "Built internal full stack web applications using the ASP.NET framework",
+          "Maintained and migrated relational databases with Microsoft SQL Server"
         ]
       }
     ]

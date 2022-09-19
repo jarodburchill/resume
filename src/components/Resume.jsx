@@ -4,7 +4,7 @@ import SideBar from "./SideBar";
 import Main from "./Main";
 
 const Container = styled.div`
-  width: calc(100vh / (${props => props.ratio}));
+  width: calc(100vh / (${(props) => props.ratio}));
   height: 100vh;
   display: flex;
   box-shadow: 0px 1px 15px rgb(0, 0, 0);

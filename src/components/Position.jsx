@@ -1,4 +1,5 @@
 import React from "react";
+import Date from "./styles/Date";
 import Group from "./styles/Group";
 import Header from "./styles/Header";
 import Description from "./styles/Description";
@@ -13,9 +14,9 @@ const Position = ({ position }) => {
     <Group subgroup>
       <Header>
         <h4>{position.title}</h4>
-        <p>
+        <Date>
           {position.startDate} - {position.endDate}
-        </p>
+        </Date>
       </Header>
       <Location>{position.location}</Location>
       <Description>

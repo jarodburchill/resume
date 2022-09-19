@@ -14,15 +14,15 @@ const Social = () => {
       <h3>{social.title}</h3>
       <hr />
       <Contact>
-        <Icon src={github} alt="GitHub" />
-        <p>
-          <a href={social.data.github.href}>{social.data.github.text}</a>
-        </p>
-      </Contact>
-      <Contact>
         <Icon src={linkedin} alt="LinkedIn" />
         <p>
           <a href={social.data.linkedin.href}>{social.data.linkedin.text}</a>
+        </p>
+      </Contact>
+      <Contact>
+        <Icon src={github} alt="GitHub" />
+        <p>
+          <a href={social.data.github.href}>{social.data.github.text}</a>
         </p>
       </Contact>
     </Group>

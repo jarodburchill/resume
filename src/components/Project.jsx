@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Date from "./styles/Date";
 import Group from "./styles/Group";
 import Header from "./styles/Header";
 import Description from "./styles/Description";
@@ -50,14 +51,16 @@ const Project = ({ project }) => {
           <h4>
             <a href={project.href}>{project.title}</a>
           </h4>
-          <ProjectStats>
-            <p>{starCount}</p>
-            <Icon src={star} alt="GitHub Stars" />
-            <p>{forkCount}</p>
-            <Icon src={fork} width={1.25} alt="GitHub Forks" />
-          </ProjectStats>
+          {starCount && forkCount ? (
+            <ProjectStats>
+              <p>{starCount}</p>
+              <Icon src={star} alt="GitHub Stars" />
+              <p>{forkCount}</p>
+              <Icon src={fork} width={1.25} alt="GitHub Forks" />
+            </ProjectStats>
+          ) : null}
         </ProjectName>
-        <p>{project.startDate}</p>
+        <Date>{project.startDate}</Date>
       </Header>
       <Description>
         <ul>
