@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.js": "/resume/static/js/main.8cd441e3.chunk.js",
-    "main.js.map": "/resume/static/js/main.8cd441e3.chunk.js.map",
-    "runtime~main.js": "/resume/static/js/runtime~main.c66e9529.js",
-    "runtime~main.js.map": "/resume/static/js/runtime~main.c66e9529.js.map",
-    "static/js/2.619522a0.chunk.js": "/resume/static/js/2.619522a0.chunk.js",
-    "static/js/2.619522a0.chunk.js.map": "/resume/static/js/2.619522a0.chunk.js.map",
+    "main.js": "/resume/static/js/main.aed1c427.chunk.js",
+    "main.js.map": "/resume/static/js/main.aed1c427.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.f477d32a.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.f477d32a.js.map",
+    "static/js/2.8043c831.chunk.js": "/resume/static/js/2.8043c831.chunk.js",
+    "static/js/2.8043c831.chunk.js.map": "/resume/static/js/2.8043c831.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.4df7845ffaec6f5624b240b960b1c694.js": "/resume/precache-manifest.4df7845ffaec6f5624b240b960b1c694.js",
+    "precache-manifest.e3424cdbc364959c6c9111c7b789539d.js": "/resume/precache-manifest.e3424cdbc364959c6c9111c7b789539d.js",
     "service-worker.js": "/resume/service-worker.js",
-    "static/media/address.svg": "/resume/static/media/address.b3bfe632.svg",
-    "static/media/email.svg": "/resume/static/media/email.5b835c77.svg",
-    "static/media/fork.svg": "/resume/static/media/fork.9a35fb6c.svg",
+    "static/js/2.8043c831.chunk.js.LICENSE": "/resume/static/js/2.8043c831.chunk.js.LICENSE",
+    "static/media/address.svg": "/resume/static/media/address.3e80a235.svg",
+    "static/media/email.svg": "/resume/static/media/email.35e0f3e4.svg",
+    "static/media/fork.svg": "/resume/static/media/fork.0e48988e.svg",
     "static/media/github.svg": "/resume/static/media/github.ad3904b1.svg",
-    "static/media/linkedin.svg": "/resume/static/media/linkedin.ae4ecef4.svg",
-    "static/media/phone.svg": "/resume/static/media/phone.c2fd7ba0.svg",
-    "static/media/star.svg": "/resume/static/media/star.8ce11092.svg"
-  }
+    "static/media/linkedin.svg": "/resume/static/media/linkedin.2017dc0a.svg",
+    "static/media/phone.svg": "/resume/static/media/phone.075d607f.svg",
+    "static/media/star.svg": "/resume/static/media/star.068618a3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f477d32a.js",
+    "static/js/2.8043c831.chunk.js",
+    "static/js/main.aed1c427.chunk.js"
+  ]
 }
