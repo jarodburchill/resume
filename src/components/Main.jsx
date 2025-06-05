@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Summary from "./Summary";
-import Projects from "./Projects";
+// import Projects from "./Projects";
 import Education from "./Education";
 import Experience from "./Experience";
 
@@ -23,7 +23,7 @@ const Main = () => {
       <Summary />
       <Experience />
       <Education />
-      <Projects />
+      {/* <Projects /> */}
     </Container>
   );
 };

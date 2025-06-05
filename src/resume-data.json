@@ -2,7 +2,7 @@
   "profile": {
     "data": {
       "name": "Jarod Burchill",
-      "profession": "Software Engineer"
+      "profession": "Software Developer"
     }
   },
   "info": {
@@ -43,27 +43,26 @@
         "items": [
           "HTML",
           "CSS",
+          "Tailwind",
           "Styled-Components",
-          "Material UI",
-          "JavaScript",
-          "TypeScript",
+          "JavaScript/TypeScript",
           "React",
+          "Vite",
           "Next.js",
-          "React-Query/SWR"
+          "Apollo/SWR/TanStack Query",
+          "WebSockets"
         ]
       },
       {
         "title": "Backend",
         "items": [
           "Node.js",
-          "Express.js",
           "NestJS",
           "TypeORM",
+          "GraphQL",
           "Python",
           "Flask",
-          "SQLAlchemy",
-          "C#",
-          "ASP.NET",
+          "ASP.NET/C#",
           "OpenAPI/Swagger"
         ]
       },
@@ -74,11 +73,12 @@
       {
         "title": "Other",
         "items": [
-          "Docker",
-          "Kubernetes",
+          "Nx/Turborepo",
+          "Docker/Kubernetes",
+          "GitHub Actions/Circle CI",
           "Azure DevOps",
+          "Datadog",
           "Jest",
-          "Pytest",
           "Git",
           "Bash/Zsh",
           "VS Code/JetBrains IDEs"
@@ -90,7 +90,7 @@
     "title": "Summary",
     "data": [
       "Passionate about crafting clean, \"DRY\" code, that produces quality software",
-      "Enthusiastic about contributing to open-source software"
+      "Enthusiastic about freelance software development opportunities"
     ]
   },
   "projects": {
@@ -117,8 +117,7 @@
         "startDate": "September 2017",
         "endDate": "April 2021",
         "description": [
-          "Ontario College Advanced Diploma",
-          "Graduated with High Distinction (3.90 GPA, 90% average)"
+          "Ontario College Advanced Diploma, Graduated with High Distinction"
         ]
       }
     ]
@@ -127,19 +126,31 @@
     "title": "Work Experience",
     "data": [
       {
+        "title": "Software Developer III",
+        "location": "theScore/PENN Entertainment, Remote",
+        "startDate": "November 2022",
+        "endDate": "Present",
+        "description": [
+          "Collaborated with designers to translate UI/UX mockups into responsive, interactive frontend features, ensuring pixel-perfect implementations",
+          "Optimized production performance on sports gaming kiosks, cutting load times by over 40%, resolving query timeouts, and reducing user frustration",
+          "Contributed significantly to the development of a production-ready application, from initial architecture to deployment and ongoing support",
+          "Introduced Nx monorepo technology across team applications, streamlining code reuse, prompting broader company adoption",
+          "Designed and implemented a wallet system on kiosk devices, ensuring reliable transaction handling and precise financial tracking",
+          "Mentored interns through recurring 1:1s, emphasizing professional development, performance feedback, and goal setting to support growth",
+          "Conducted candidate screening and interviews for technical positions"
+        ]
+      },
+      {
         "title": "Full Stack Software Engineer",
         "location": "Acerta Analytics Solutions, Remote",
         "startDate": "May 2021",
-        "endDate": "Present",
+        "endDate": "November 2022",
         "description": [
           "Awarded \"Acerta Technical Excellence\" for standardizing and adopting best practices",
           "Architected NestJS template repository to ensure clean and consistent code across backend microservices",
           "Pioneered and standardized automated testing with Jest, and data persistence/migrations with TypeORM, in NestJS microservices",
           "Designed and implemented features spanning across the entire tech stack",
-          "Consumed and integrated with third party APIs such as Twilio Sendgrid",
-          "Delivered quality software every sprint in an agile/scrum environment",
-          "Actively participated in the code review process via GitHub",
-          "Responsible for screening and interviewing candidates for technical roles"
+          "Consumed and integrated with third party APIs such as Twilio Sendgrid"
         ]
       },
       {
@@ -149,7 +160,6 @@
         "endDate": "April 2021",
         "description": [
           "Wrote and maintained modern TypeScript code using the latest ECMAScript language features",
-          "Streamlined frontend data fetching and cashing with react-query",
           "Delivered user interfaces for customer demos while finishing college"
         ]
       },
@@ -160,7 +170,7 @@
         "endDate": "August 2020",
         "description": [
           "Created RESTful APIs with OpenAPI 3.0 documentation",
-          "Wrote automated tests with Pytest for new features in Python Flask backend microservices"
+          "Wrote automated tests with Pytest for new features in Python microservices"
         ]
       },
       {
@@ -169,8 +179,7 @@
         "startDate": "January 2020",
         "endDate": "April 2020",
         "description": [
-          "Led in implementing new technologies to the tech stack, including React Hooks and TypeScript",
-          "Built custom React web components that required advanced custom CSS"
+          "Led in implementing new technologies to the tech stack, including React Hooks and TypeScript"
         ]
       },
       {
@@ -179,8 +188,7 @@
         "startDate": "May 2019",
         "endDate": "December 2019",
         "description": [
-          "Built internal full stack web applications using the ASP.NET framework",
-          "Maintained and migrated relational databases with Microsoft SQL Server"
+          "Built internal full stack web applications using the ASP.NET framework"
         ]
       }
     ]
