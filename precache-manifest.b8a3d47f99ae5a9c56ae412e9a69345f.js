@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "272b11dd844febc1f42fb5fd4b2cd394",
+    "revision": "fdf7a6f426e39224627058aff833a31f",
     "url": "/resume/index.html"
   },
   {
-    "revision": "4e04a0dd0fc17ab60897",
-    "url": "/resume/static/js/2.8043c831.chunk.js"
+    "revision": "8a61fe84856ca41f23b2",
+    "url": "/resume/static/js/2.7c6557be.chunk.js"
   },
   {
     "revision": "25ab7760a9d196e1bee67b6bdb56e1bd",
-    "url": "/resume/static/js/2.8043c831.chunk.js.LICENSE"
+    "url": "/resume/static/js/2.7c6557be.chunk.js.LICENSE"
   },
   {
-    "revision": "cf091e149ee01e9029c2",
-    "url": "/resume/static/js/main.aed1c427.chunk.js"
+    "revision": "453a484bb855fc825429",
+    "url": "/resume/static/js/main.7438c960.chunk.js"
   },
   {
     "revision": "0c82574f3affd18d47b3",
@@ -28,10 +28,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/email.35e0f3e4.svg"
   },
   {
-    "revision": "0e48988efadbc9706a0b6812313040bf",
-    "url": "/resume/static/media/fork.0e48988e.svg"
-  },
-  {
     "revision": "ad3904b12feba1d6a8675f82f02241bc",
     "url": "/resume/static/media/github.ad3904b1.svg"
   },
@@ -42,9 +38,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "075d607f5eee4ea381d3fa9c325295b0",
     "url": "/resume/static/media/phone.075d607f.svg"
-  },
-  {
-    "revision": "068618a398c720c54fda9389b7557d02",
-    "url": "/resume/static/media/star.068618a3.svg"
   }
 ]);
