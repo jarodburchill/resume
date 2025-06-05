@@ -147,7 +147,7 @@
         "endDate": "November 2022",
         "description": [
           "Awarded \"Acerta Technical Excellence\" for standardizing and adopting best practices",
-          "Architected NestJS template repository to ensure clean and consistent code across backend microservices",
+          "Architected a NestJS template repository to ensure clean and consistent code across backend microservices",
           "Pioneered and standardized automated testing with Jest, and data persistence/migrations with TypeORM, in NestJS microservices",
           "Designed and implemented features spanning across the entire tech stack",
           "Consumed and integrated with third party APIs such as Twilio Sendgrid"
