@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Summary from "./Summary";
 // import Projects from "./Projects";
-import Education from "./Education";
+// import Education from "./Education";
 import Experience from "./Experience";
 
 const Container = styled.div`
@@ -22,7 +22,7 @@ const Main = () => {
     <Container ratio={11 / 8.5}>
       <Summary />
       <Experience />
-      <Education />
+      {/* <Education /> */}
       {/* <Projects /> */}
     </Container>
   );

@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import Profile from "./Profile";
 import Info from "./Info";
-import Social from "./Social";
+import Education from "./Education";
+// import Social from "./Social";
 import Skills from "./Skills";
 
 const Container = styled.div`
@@ -22,7 +23,7 @@ const SideBar = () => {
     <Container ratio={11 / 8.5}>
       <Profile />
       <Info />
-      <Social />
+      <Education />
       <Skills />
     </Container>
   );

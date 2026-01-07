@@ -2,28 +2,25 @@
   "profile": {
     "data": {
       "name": "Jarod Burchill",
-      "profession": "Software Developer"
+      "profession": " "
     }
   },
   "info": {
-    "title": "Information",
+    "title": "Contact",
     "data": {
       "address": {
-        "text": "Calgary, Alberta, Canada",
-        "href": "https://www.google.com/maps/place/Calgary,+AB"
+        "text": "Logan, QLD, Australia"
       },
       "phone": {
-        "text": "+1 (519) 282-8028",
-        "href": "tel:+15192828028"
+        "text": "+61 411 063 039"
       },
       "email": {
-        "text": "jarodburchill@gmail.com",
-        "href": "mailto:jarodburchill@gmail.com"
+        "text": "jarodburchill@gmail.com"
       }
     }
   },
   "social": {
-    "title": "Socials",
+    "title": "Education",
     "data": {
       "github": {
         "text": "github.com/jarodburchill",
@@ -36,52 +33,19 @@
     }
   },
   "skills": {
-    "title": "Technical Skills",
+    "title": "Relevant Skills",
     "data": [
       {
-        "title": "Frontend",
         "items": [
-          "HTML",
-          "CSS",
-          "Tailwind",
-          "Styled-Components",
-          "JavaScript/TypeScript",
-          "React",
-          "Vite",
-          "Next.js",
-          "Apollo/SWR/TanStack Query",
-          "WebSockets"
-        ]
-      },
-      {
-        "title": "Backend",
-        "items": [
-          "Node.js",
-          "NestJS",
-          "TypeORM",
-          "GraphQL",
-          "Python",
-          "Flask",
-          "ASP.NET/C#",
-          "OpenAPI/Swagger"
-        ]
-      },
-      {
-        "title": "Database",
-        "items": ["PostgreSQL", "T-SQL", "MySQL"]
-      },
-      {
-        "title": "Other",
-        "items": [
-          "Nx/Turborepo",
-          "Docker/Kubernetes",
-          "GitHub Actions/Circle CI",
-          "Azure DevOps",
-          "Datadog",
-          "Jest",
-          "Git",
-          "Bash/Zsh",
-          "VS Code/JetBrains IDEs"
+          "Critical Thinking",
+          "Problem Solving",
+          "Attention to Detail",
+          "Communication",
+          "Teamwork",
+          "Interpersonal Skills",
+          "Manual Handling",
+          "Time Management & Efficiency",
+          "Leadership"
         ]
       }
     ]
@@ -89,8 +53,10 @@
   "summary": {
     "title": "Summary",
     "data": [
-      "Passionate about crafting clean, \"DRY\" code, that produces quality software",
-      "Enthusiastic about freelance software development opportunities"
+      "Detail-oriented professional with several years of experience in software development.",
+      "Currently living in Australia on a Working Holiday Visa (417).",
+      "Reliable individual who is eager to learn and has a strong work ethic.",
+      "Seeking to apply critical-thinking and manual handling skills to a harvesting/packing position."
     ]
   },
   "projects": {
@@ -112,13 +78,12 @@
     "title": "Education",
     "data": [
       {
-        "title": "Computer Programmer/Analyst",
-        "location": "Conestoga College, Kitchener, Ontario",
+        "title": "Ontario College Advanced Diploma (OCAD)",
+        "subtitle": "Computer Programming",
+        "location": "Conestoga College, Kitchener, Ontario, Canada",
         "startDate": "September 2017",
         "endDate": "April 2021",
-        "description": [
-          "Ontario College Advanced Diploma, Graduated with High Distinction"
-        ]
+        "description": ["Graduated with High Distinction Honours"]
       }
     ]
   },
@@ -127,68 +92,65 @@
     "data": [
       {
         "title": "Software Developer III",
-        "location": "theScore/PENN Entertainment, Remote",
+        "location": "theScore/PENN Entertainment, Toronto, Ontario, Canada",
         "startDate": "November 2022",
-        "endDate": "Present",
+        "endDate": "July 2025",
         "description": [
-          "Collaborated with designers to translate UI/UX mockups into responsive, interactive frontend features, ensuring pixel-perfect implementations",
-          "Optimized production performance on sports gaming kiosks, cutting load times by over 40%, resolving query timeouts, and reducing user frustration",
-          "Contributed significantly to the development of a production-ready application, from initial architecture to deployment and ongoing support",
-          "Introduced Nx monorepo technology across team applications, streamlining code reuse, prompting broader company adoption",
-          "Designed and implemented a wallet system on kiosk devices, ensuring reliable transaction handling and precise financial tracking",
-          "Mentored interns through recurring 1:1s, emphasizing professional development, performance feedback, and goal setting to support growth",
-          "Conducted candidate screening and interviews for technical positions"
+          "Collaborated with designers to create responsive, interactive website features.",
+          "Contributed significantly to the ground-up development of a production-ready application.",
+          "Mentored interns, emphasising professional development, performance feedback, and goal setting to support growth.",
+          "Conducted candidate screenings and interviews for technical positions."
         ]
       },
       {
         "title": "Full Stack Software Engineer",
-        "location": "Acerta Analytics Solutions, Remote",
-        "startDate": "May 2021",
+        "location": "Acerta Analytics Solutions, Waterloo, Ontario, Canada",
+        "startDate": "January 2020",
         "endDate": "November 2022",
         "description": [
-          "Awarded \"Acerta Technical Excellence\" for standardizing and adopting best practices",
-          "Architected a NestJS template repository to ensure clean and consistent code across backend microservices",
-          "Pioneered and standardized automated testing with Jest, and data persistence/migrations with TypeORM, in NestJS microservices",
-          "Designed and implemented features spanning across the entire tech stack",
-          "Consumed and integrated with third party APIs such as Twilio Sendgrid"
+          "Demonstrated strong attention to detail, consistency, and quality control while working in a fast-paced startup environment.",
+          "Awarded \"Acerta Technical Excellence\" for standardising and adopting best practices."
         ]
       },
       {
-        "title": "Frontend Software Engineer",
-        "location": "Acerta Analytics Solutions, Kitchener, Ontario",
-        "startDate": "September 2020",
-        "endDate": "April 2021",
-        "description": [
-          "Wrote and maintained modern TypeScript code using the latest ECMAScript language features",
-          "Delivered user interfaces for customer demos while finishing college"
-        ]
-      },
-      {
-        "title": "Backend Software Engineer Intern",
-        "location": "Acerta Analytics Solutions, Kitchener, Ontario",
-        "startDate": "May 2020",
-        "endDate": "August 2020",
-        "description": [
-          "Created RESTful APIs with OpenAPI 3.0 documentation",
-          "Wrote automated tests with Pytest for new features in Python microservices"
-        ]
-      },
-      {
-        "title": "Frontend Software Engineer Intern",
-        "location": "Acerta Analytics Solutions, Kitchener, Ontario",
-        "startDate": "January 2020",
-        "endDate": "April 2020",
-        "description": [
-          "Led in implementing new technologies to the tech stack, including React Hooks and TypeScript"
-        ]
-      },
-      {
-        "title": "Programmer/Analyst (Co-op)",
-        "location": "Waterloo Regional Police Service, Cambridge, Ontario",
+        "title": "Programmer/Analyst (Internship)",
+        "location": "Waterloo Regional Police Service, Cambridge, Ontario, Canada",
         "startDate": "May 2019",
         "endDate": "December 2019",
         "description": [
-          "Built internal full stack web applications using the ASP.NET framework"
+          "Consistently completed projects ahead of deadlines, demonstrating strong time management and proactive problem-solving skills.",
+          "Simplified and communicated technical issues to non-technical colleagues, ensuring quick resolutions."
+        ]
+      },
+      {
+        "title": "Cashier",
+        "location": "Best Buy, Kitchener, Ontario, Canada",
+        "startDate": "October 2018",
+        "endDate": "April 2019",
+        "description": [
+          "Provided professional and friendly assistance to customers in a fast-paced environment.",
+          "Handled high-volume transactions accurately while maintaining efficiency and attention to detail."
+        ]
+      },
+      {
+        "title": "Grounds Maintenance Worker",
+        "location": "Bingemans Grand Experiences, Kitchener, Ontario, Canada",
+        "startDate": "June 2017",
+        "endDate": "October 2018",
+        "description": [
+          "Performed physically demanding outdoor work in varying weather conditions.",
+          "Operated power tools and equipment in accordance with safety procedures."
+        ]
+      },
+      {
+        "title": "Produce Stock Clerk",
+        "location": "Foodland, Dorchester, Ontario, Canada",
+        "startDate": "July 2014",
+        "endDate": "May 2017",
+        "description": [
+          "Handled produce carefully to minimise damage and waste.",
+          "Stocked, rotated, and inspected produce for freshness and quality, removing damaged items to maintain high product standards.",
+          "Stood for long periods and lifted heavy stock safely, following proper handling and safety procedures."
         ]
       }
     ]
