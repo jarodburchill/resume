@@ -78,7 +78,7 @@
     "title": "Education",
     "data": [
       {
-        "title": "Ontario College Advanced Diploma (OCAD)",
+        "title": "Ontario College Advanced Diploma",
         "subtitle": "Computer Programming",
         "location": "Conestoga College, Kitchener, Ontario, Canada",
         "startDate": "September 2017",
@@ -103,7 +103,7 @@
         ]
       },
       {
-        "title": "Full Stack Software Engineer",
+        "title": "Software Engineer",
         "location": "Acerta Analytics Solutions, Waterloo, Ontario, Canada",
         "startDate": "January 2020",
         "endDate": "November 2022",
@@ -113,7 +113,7 @@
         ]
       },
       {
-        "title": "Programmer/Analyst (Internship)",
+        "title": "Programmer/Analyst",
         "location": "Waterloo Regional Police Service, Cambridge, Ontario, Canada",
         "startDate": "May 2019",
         "endDate": "December 2019",

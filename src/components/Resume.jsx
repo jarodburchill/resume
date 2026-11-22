@@ -21,7 +21,7 @@ const Container = styled.div`
 
 const Resume = () => {
   return (
-    <Container ratio={11 / 8.5}>
+    <Container ratio={297 / 210}>
       <SideBar />
       <Main />
     </Container>
